@@ -1,0 +1,41 @@
+.outer-stars {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+}
+
+.inner-stars {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* .inner-stars::before {
+  content: '\f005 \f005 \f005 \f005 \f005';
+  color: #545ee7;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 1rem;
+  font-weight: 900;  
+} */
+
+/* .outer-stars::before {
+  content: '\f005 \f005 \f005 \f005 \f005';
+  color: #ccc;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 1rem;
+  font-weight: 900;
+} */
+
+.outer-stars .fa-star {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.inner-stars .fa-star {
+  font-size: 1rem;
+  color: #545ee7;
+}

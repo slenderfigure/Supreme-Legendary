@@ -1,0 +1,17 @@
+<div *ngIf="prevPokemon && nextPokemon" class="nav-buttons">
+  <a [routerLink]="['/pokedex', prevPokemon.name | lowercase]">
+    <i class="fas fa-caret-left"></i>
+    <span class="number">#{{ prevPokemon.entryNumber }}</span>
+    <span class="name">          
+      {{ prevPokemon.name }}             
+    </span>
+  </a>
+
+  <a [routerLink]="['/pokedex', nextPokemon.name | lowercase]">
+    <span class="name">
+      {{ nextPokemon.name }}            
+    </span>
+    <span class="number">#{{ nextPokemon.entryNumber }}</span>
+    <i class="fas fa-caret-right"></i>
+  </a>
+</div>

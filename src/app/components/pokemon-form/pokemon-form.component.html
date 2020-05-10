@@ -1,0 +1,60 @@
+<div *ngIf="pokemonForm">
+  <form 
+    (ngSubmit)="onSubmit()"
+    [formGroup]="pokemonForm" 
+    class="pokemon-form">
+    <h3 class="title">Create a Pokémon Entry</h3>
+
+    <!-- Pokemon Image Preview -->
+    <image-previewer [imgPreview]="imgPreview"></image-previewer>
+
+    <label style="display: block; margin-bottom: 1rem;">
+      <input (change)="isAlternate = !isAlternate" type="checkbox">
+      <span> Alternate Form</span>
+    </label>
+
+    <div *ngFor="let field of fields" class="form-group">
+      <label>{{ field.label }}</label>
+
+      <div [ngSwitch]="field.controlType">
+        <div *ngSwitchCase="'input'">
+          <input 
+          [name]="field.key"
+          [formControlName]="field.key" 
+          [type]="field.type ? field.type : 'text'">
+        </div>
+        <div *ngSwitchCase="'dropdown'">
+          <select [formControlName]="field.key" multiple>
+            <option *ngFor="let option of field.options" [value]="option.value">
+              {{ option.key }}
+            </option>
+          </select>
+        </div>
+        <div *ngSwitchCase="'textarea'">
+          <textarea [formControlName]="field.key"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pokemon Abilities Section -->
+    <ability-selector
+      (notifyChange)="selectedAbilities = $event"></ability-selector>
+
+    <!-- Pokemon Types & Weakness Selector -->
+    <types-selector
+      (notifyTypes)="pokemonTypes = $event"
+      (notifyWeaknesses)="pokemonWeaknesses = $event"></types-selector>
+
+    <button>
+      <span>Submit</span>
+    </button>
+  </form>
+
+  <div 
+    readonly
+    #output
+    (click)="copyToClipboard(output)"
+    class="pokedex-output">
+    {{ pokemon | json }}  
+  </div>
+</div>

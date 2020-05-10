@@ -1,0 +1,166 @@
+/* Common Animations */
+@keyframes reveal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes reveal2 {
+  from { 
+    visibility: hidden; 
+    opacity: 0; 
+    transform: translateY(100px);
+  }
+  to { 
+    visibility: visible; 
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
+
+@keyframes hide {
+  from { visibility: visible; opacity: 1; }
+  to { visibility: hidden; opacity: 0; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100px); }
+  to { transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100px); }
+  to { transform: translateY(0); }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(-100px); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideRight {
+  from { transform: translateX(100px); }
+  to { transform: translateX(0); }
+}
+
+
+.type-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.type-wrapper-m {
+  display: flex;
+  align-items: center;
+}
+
+.type-wrapper-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pk-type {
+  display: block;
+  width: 85px;
+  padding: 0.3rem 0;
+  color: #fff;
+  font-size: 11px;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  border-radius: 5px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.pk-type:not(:last-of-type) {
+  margin-right: 0.5rem;
+}
+
+.pk-type-m {
+  width: 50%;
+}
+
+.pk-type-2 {
+  width: calc(33.33% - 0.5rem);
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0;
+  font-size: 0.90rem;
+  text-transform: capitalize;
+}
+
+.pk-type-normal {
+  background-color: #AA99;
+}
+
+.pk-type-fire {
+  background-color: #f42;
+}
+
+.pk-type-water {
+  background-color: #39f;  
+}
+
+.pk-type-electric {
+  background-color: #fc3;
+}
+
+.pk-type-grass {
+  background-color: #7c5;  
+}
+
+.pk-type-ice {
+  background-color: #6cf;
+}
+
+.pk-type-fighting {
+  background-color: #b54;
+}
+
+.pk-type-poison {
+  background-color: #a59;
+}
+
+.pk-type-ground {
+  background-color: #db5;
+}
+
+.pk-type-flying {
+  background-color: #89f;
+}
+
+.pk-type-psychic {
+  background-color: #f59;
+}
+
+.pk-type-bug {
+  background-color: #ab2;
+}
+
+.pk-type-rock {
+  background-color: #ba6;
+}
+
+.pk-type-ghost {
+  background-color: #66b;
+}
+
+.pk-type-dragon {
+  background-color: #76e;
+}
+
+.pk-type-dark {
+  background-color: #754;
+}
+
+.pk-type-steel {
+  background-color: #aab;
+}
+
+.pk-type-fairy {
+  background-color: #e9e;
+}

@@ -1,0 +1,28 @@
+<div class="wrapper">
+  <button 
+    (click)="onNavBtnClick('before')"
+    #navButton
+    [style.visibility]="pageCount > 10 ? 'visible' : 'hidden'"
+    disabled>
+    <i class="fas fa-angle-double-left"></i>
+  </button>
+
+  <div 
+    (scroll)="onScroll($event.target)" 
+    #pageBtnWrapper 
+    class="page-button-wrapper">
+    <button 
+      [class.active]="index == activePage"
+      (click)="onClick(index)"
+      *ngFor="let page of pageCount | repeat; index as index">
+      {{ index + 1 }}
+    </button>
+  </div>
+
+  <button 
+    (click)="onNavBtnClick('next')"
+    #navButton
+    [style.visibility]="pageCount > 10 ? 'visible' : 'hidden'">
+    <i class="fas fa-angle-double-right"></i>
+  </button>
+</div>

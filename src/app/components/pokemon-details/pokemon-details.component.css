@@ -1,0 +1,206 @@
+.pokemon-details-container {
+  position: relative; 
+  top: 5rem;
+  max-width: 1000px;  
+  margin: 0 auto 4rem;
+  animation: reveal 0.5s ease;
+  z-index: 1;
+}
+
+.pokemon-info {
+  margin-bottom: 2rem;
+  text-align: center;  
+  animation: reveal 0.5s ease;
+}
+
+.pokemon-info span:first-of-type {
+  margin-right: 1rem;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+
+.pokemon-info span:last-of-type {
+  color: #888;
+  font-size: 2.3rem;
+  
+}
+
+.card-wrapper {
+  width: 100%;
+  min-height: 500px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.column {
+  width: 48%;
+}
+
+.column img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgba(57, 84, 122, 0.1);
+  animation: slideLeft 0.4s ease forwards;
+}
+
+.form-switcher {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.form-switcher button {
+  width: calc(50% - 2px);
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  background-color: rgba(57, 84, 122, 0.1);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+.form-switcher .button-width-2 {
+  width: calc(33% - 2px) !important;
+  margin-bottom: 0.3rem;
+}
+
+.form-switcher button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.form-switcher button:active {
+  background-color: rgba(57, 84, 122, 0.4);
+}
+
+.session {
+  margin-bottom: 1.5rem;
+}
+
+.session h3 {
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.description {
+  line-height: 1.5rem;
+  animation: slideRight 0.4s ease forwards;
+}
+
+.traits {
+  display: flex;
+  width: 100%;
+  padding: 1.2rem;
+  height: auto;
+  border-radius: 4px;
+  background-color: rgba(89, 202, 255, 0.1);
+  animation: slideDown 0.4s ease forwards;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.column-2 .label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.column-2 .data,
+.column-2 .data span {
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;  
+  text-transform: capitalize;
+}
+
+.column-2 .data .fas {
+  margin-right: 1.5rem;
+  color: #444;
+  font-size: 1.3rem;
+}
+
+.column-2 .data:not(:last-of-type) {
+  margin-bottom: 1.2rem;
+}
+
+.type, .weaknesses {
+  animation: slideUp 0.4s ease forwards;
+}
+
+.explore-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  padding: 0 0.7rem;
+  margin: auto;
+  border-radius: 4px;  
+  background: #36befd linear-gradient(to right,#36befd 0,#6461f6 100%);
+  box-shadow: 0 2px 4px rgba(35, 80, 129, 0.1);
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.explore-button span {
+  position: relative;
+  color: #6461f6;
+  transition: color 0.3s ease;
+  z-index: 2;
+}
+
+.explore-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 97%;
+  height: 34px;
+  background-color: #fff;
+  border-radius: 3px;  
+}
+
+.explore-button::after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: inherit;
+  border-radius: 10px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.explore-button:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(20, 20); 
+}
+
+.explore-button:hover span {
+  color: #fff;
+}

@@ -1,0 +1,39 @@
+<div class="design"></div>
+
+<div style="position: relative; top: 3rem">
+  <pk-pagination
+    [hidden]="loading"
+    [pageCount]="pageCount"
+    [activePage]="activePage"
+    (changeNotify)="changePage($event)"></pk-pagination>
+</div>
+
+<div *ngIf="!loading">
+  <div class="wrapper">
+    <div class="preview-wrapper">
+      <div class="flex-container">
+        <a 
+          *ngFor="let pokemon of filteredPokedex"
+          [routerLink]="['/pokedex', pokemon.name | lowercase]" class="preview">
+          <img [src]="pokemon.iconUrl" [alt]="pokemon.name">
+          
+          <div class="content">
+            <span>#{{ pokemon.entryNumber }}</span>
+            <span>{{ pokemon.name }}</span>
+    
+            <div class="type-wrapper-m">
+              <div
+                *ngFor="let type of pokemon.types" 
+                class="pk-type pk-type-m pk-type-{{ type | lowercase}}">
+                {{ type }}
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<app-spinner *ngIf="loading"></app-spinner>

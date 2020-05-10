@@ -1,0 +1,24 @@
+<section *ngIf="pokemon.baseStats" class="stats-section">
+  <h3>Base Stats</h3>
+
+  <div class="wrapper">
+    <div class="stats">
+      <div 
+        *ngFor="let stat of stats; last as isLast"
+        class="row">
+        <span class="name">{{ stat.key }}</span>
+        <span class="value" [class.total]="isLast">{{ stat.value }}</span>
+      </div>
+    </div>
+  
+    <div class="stats-chart">
+      <div *ngFor="let stat of stats.slice(0, 6)" class="row">
+        <div 
+          [style.width.%]="stat.rank" 
+          [class]="getRankClass(stat.value)"
+          class="bar">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

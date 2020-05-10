@@ -1,0 +1,32 @@
+<div class="form-group">
+  <label>Abilities</label>
+  <div 
+    *ngIf="selectedAbilities.length"
+    class="selected-abilities-wrapper">
+    <ul>
+      <li 
+        (click)="removeSelected(selected)"
+        *ngFor="let selected of selectedAbilities">
+        {{ selected }}
+      </li>
+    </ul>
+  </div>
+  <div class="dropdown-wrapper">
+    <input 
+      #abilityInput
+      (input)="abilitySearcher($event.target)" 
+      (keydown)="onKeydown($event)"
+      type="text">
+    <ul 
+      #abilityDropdown
+      [class.view-dropdown]="searchMatches.length"
+      class="dropdown">
+      <li 
+        (click)="onMatchClick(match)"
+        *ngFor="let match of searchMatches; index as index"
+        [class.active-match]="keyIndex == index">
+        {{ match }}
+      </li>
+    </ul>
+  </div>
+</div>

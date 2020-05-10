@@ -1,0 +1,57 @@
+<div class="form-group-2">
+  <h3>Type(s)</h3>
+  <div class="selected-types">
+    <p>
+      <strong>First: </strong> 
+      {{ pokemonTypes[0] }}
+    </p>
+    <p>
+      <strong>Second: </strong> 
+      {{ pokemonTypes[1] }}
+    </p>
+  </div>
+  
+  <div class="checkbox-wrapper">
+    <label *ngFor="let type of types" class="column">
+      <input 
+        (change)="onTypeSelection($event.target)" 
+        type="checkbox"
+        name="types" 
+        [value]="type">
+      <span class="pk-type pk-type-{{ type | lowercase }}">
+        {{ type }}
+      </span>
+    </label>
+  </div>
+</div>
+
+<div class="form-group-2">
+  <h3>Weakness(es)</h3>
+  <div class="selected-types">
+    <p>
+      <strong>Selected: </strong> 
+      <span
+        *ngFor="let weakness of pokemonWeaknesses; index as index">
+        <span *ngIf="index != pokemonWeaknesses.length - 1">
+          {{ weakness }}, 
+        </span>
+        <span *ngIf="index == pokemonWeaknesses.length - 1">
+          {{ weakness }}
+        </span>
+      </span>
+    </p>
+  </div>
+
+  <div class="checkbox-wrapper">
+    <label *ngFor="let type of types" class="column">
+      <input 
+        (change)="onWeaknessSelection($event.target)"
+        type="checkbox"
+        name="weaknesses" 
+        [value]="type">
+      <span class="pk-type pk-type-{{ type | lowercase }}">
+        {{ type }}
+      </span>
+    </label>
+  </div>
+</div>

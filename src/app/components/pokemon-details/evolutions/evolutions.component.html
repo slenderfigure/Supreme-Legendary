@@ -1,0 +1,122 @@
+<div class="evolutions-container">
+  <h3>Evolutionary Line</h3>
+
+  <div [ngSwitch]="lineType">
+    <section 
+      *ngSwitchCase="'evolutions'"
+      class="evolutions" 
+      [class]="scrollClass">
+      <div 
+        *ngFor="let evol of evolutions; last as isLast" 
+        class="column-3">
+    
+        <a [routerLink]="['/pokedex', evol.name | lowercase]" 
+          class="row image-container">
+          <img [src]="evol.iconUrl" [alt]="pokemon.name">
+        </a>
+    
+        <a [routerLink]="['/pokedex', evol.name | lowercase]" 
+          class="row details">
+          <span>{{ evol.name }} </span>
+          <span>#{{ evol.entryNumber }}</span>
+        </a>
+    
+        <a [routerLink]="['/pokedex', evol.name | lowercase]" 
+          class="row type-wrapper">
+          <div 
+            *ngFor="let type of evol.types"
+            class="pk-type pk-type-{{ type | lowercase }}">
+            {{ type }}
+          </div>
+        </a >
+
+        <i *ngIf="!isLast" class="fas fa-chevron-right"></i>
+      </div>     
+    </section>
+
+    <section 
+      *ngSwitchCase="'alternateEvolutions'"
+      class="evolutions alt-evolutions" 
+      [class]="scrollClass">
+      <div class="column-3">
+        <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
+          class="row image-container">
+          <img [src]="pokemon.iconUrl" [alt]="pokemon.name">
+        </a>
+
+        <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
+          class="row details">
+          <span>{{ pokemon.name }} </span>
+          <span>#{{ pokemon.entryNumber }}</span>
+        </a>
+
+        <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
+          class="row type-wrapper">
+          <div 
+            *ngFor="let type of pokemon.types"
+            class="pk-type pk-type-{{ type | lowercase }}">
+            {{ type }}
+          </div>
+        </a>
+
+        <i class="fas fa-chevron-right"></i>
+      </div>
+
+      <div 
+        [class]="altEvolutionsClass">
+        <div 
+          *ngFor="let evol of evolutions" 
+          class="column-3">
+      
+          <a [routerLink]="['/pokedex', evol.name | lowercase]" 
+            class="row image-container">
+            <img [src]="evol.iconUrl" [alt]="pokemon.name">
+          </a>
+      
+          <a [routerLink]="['/pokedex', evol.name | lowercase]" 
+            class="row details">
+            <span>{{ evol.name }} </span>
+            <span>#{{ evol.entryNumber }}</span>
+          </a>
+      
+          <a [routerLink]="['/pokedex', evol.name | lowercase]" 
+            class="row type-wrapper">
+            <div 
+              *ngFor="let type of evol.types"
+              class="pk-type pk-type-{{ type | lowercase }}">
+              {{ type }}
+            </div>
+          </a >
+        </div>     
+      </div>
+    </section>
+
+    <div *ngSwitchDefault>
+      <p style="margin: 1rem 0;">This pokemon does not evolve</p>
+
+      <section class="evolutions" [class]="scrollClass">
+        <div class="column-3">
+          <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
+            class="row image-container">
+            <img [src]="pokemon.iconUrl" [alt]="pokemon.name">
+          </a>
+
+          <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
+            class="row details">
+            <span>{{ pokemon.name }} </span>
+            <span>#{{ pokemon.entryNumber }}</span>
+          </a>
+
+          <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
+            class="row type-wrapper">
+            <div 
+              *ngFor="let type of pokemon.types"
+              class="pk-type pk-type-{{ type | lowercase }}">
+              {{ type }}
+            </div>
+          </a >
+        </div>
+      </section>
+    </div>
+  </div>
+</div>  

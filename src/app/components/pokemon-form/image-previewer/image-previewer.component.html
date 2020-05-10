@@ -1,0 +1,7 @@
+<div class="preview">
+  <img 
+  [style.opacity]="previewLoaded ? '1' : '0'"
+  (load)="previewLoaded = true"
+  (error)="previewLoaded = false"
+  [src]="imgPreview" alt="Preview">
+</div>
