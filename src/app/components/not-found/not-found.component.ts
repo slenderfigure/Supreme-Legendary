@@ -1,8 +1,10 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
 
-import { Observable, of, from, fromEvent } from 'rxjs';
-import { map, filter } from 'rxjs/operators';
+import { Observable, of, from, fromEvent, Subscription } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { map, filter, tap, debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
+import { Pokemon } from '../pokemon';
 
 @Component({
   selector: 'app-not-found',
@@ -16,20 +18,29 @@ export class NotFoundComponent implements OnInit, AfterViewInit {
   @ViewChild('circle') circle: ElementRef<HTMLElement>;
 
 
-  getNumbers(num?: number): Observable<any> {
-    return from([2, -5, 16, 21, 1, 6, 33, -9]).pipe(
-      filter((val: number) => val >= 15)
-    );
+  abilities: string[] = [];
+  
+  getAbilities(): Observable<string[]> {
+    return this.http.get<string[]>('../../api/abilities.json');
   }
 
-
-  constructor( ) { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
   }
 
   ngAfterViewInit(): void {
-    this.getNumbers().subscribe(val => console.log(val));
+    fromEvent(this.inputField.nativeElement, 'input').pipe(
+      debounceTime(2000),
+      distinctUntilChanged(),
+      switchMap(() => this.getAbilities())
+    ).subscribe((abilities: string[]) => {
+      const value = this.inputField.nativeElement.value.trim().toLowerCase();
+
+      this.abilities = abilities.filter(val => val.slice(0, value.length).toLowerCase() == value);
+      
+      console.log(this.abilities);
+    });
   }
 
   activeRipple(e: MouseEvent): void {

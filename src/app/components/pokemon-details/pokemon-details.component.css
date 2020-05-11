@@ -53,29 +53,29 @@
 }
 
 .form-switcher {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
   width: 100%;
+  height: auto;
   margin-top: 0.5rem;
-  border-radius: 4px;
   overflow: hidden;
 }
 
 .form-switcher button {
-  width: calc(50% - 2px);
+  position: relative;
   padding: 0.4rem 1rem;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   white-space: nowrap;
   background-color: rgba(57, 84, 122, 0.1);
   transition: background-color 0.3s ease, opacity 0.3s ease;
+  border-radius: 4px;
   overflow: hidden;
 }
 
-.form-switcher .button-width-2 {
-  width: calc(33% - 2px) !important;
-  margin-bottom: 0.3rem;
+.form-switcher-2 {
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 0.5rem;
 }
 
 .form-switcher button:disabled {
@@ -83,8 +83,21 @@
   cursor: default;
 }
 
-.form-switcher button:active {
-  background-color: rgba(57, 84, 122, 0.4);
+.form-switcher button:not(:disabled)::after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+  linear-gradient(45deg,rgba(89, 202, 255, 0.3), rgba(78, 76, 204, 0.1));
+  transition: opacity 0.4s ease;
+}
+
+.form-switcher button:hover::after {
+  opacity: 1;
 }
 
 .session {

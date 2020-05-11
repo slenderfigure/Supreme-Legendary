@@ -2011,7 +2011,7 @@
   },
   {
     "entryNumber": "362",
-    "name": "Glalie",
+    "name": "Mega Glalie",
     "description": "Glalie has a body made of rock, which it hardens with an armor of ice. This Pokémon has the ability to freeze moisture in the atmosphere into any shape it desires.",
     "traits": {
       "height": "6' 11\"",
@@ -2196,14 +2196,6 @@
   {
     "entryNumber": "386",
     "name": "Attack Forme",
-    "traits": {
-      "height": "5' 07\"",
-      "weight": 134
-    },
-    "category": "DNA",
-    "abilities": ["Pressure"],
-    "types": ["Psychic"],
-    "weaknesses": ["Ghost", "Dark", "Bug"],
     "baseStats": {
       "hp": 50,
       "attack": 180,
@@ -2218,14 +2210,6 @@
   {
     "entryNumber": "386",
     "name": "Defense Forme",
-    "traits": {
-      "height": "5' 07\"",
-      "weight": 134
-    },
-    "category": "DNA",
-    "abilities": ["Pressure"],
-    "types": ["Psychic"],
-    "weaknesses": ["Ghost", "Dark", "Bug"],
     "baseStats": {
       "hp": 50,
       "attack": 70,
@@ -2240,15 +2224,6 @@
   {
     "entryNumber": "386",
     "name": "Speed Forme",
-    "description": "",
-    "traits": {
-      "height": "5' 07\"",
-      "weight": 134
-    },
-    "category": "DNA",
-    "abilities": ["Pressure"],
-    "types": ["Psychic"],
-    "weaknesses": ["Ghost", "Dark", "Bug"],
     "baseStats": {
       "hp": 50,
       "attack": 95,
@@ -2259,5 +2234,358 @@
     },
     "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/386_f4.png",
     "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f4.png"
+  },
+  {
+    "entryNumber": "412",
+    "name": "Sandy Cloak",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "spAtk": 29,
+      "spDef": 45,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/412_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412_f2.png"
+  },
+  {
+    "entryNumber": "412",
+    "name": "Trash Cloak",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "spAtk": 29,
+      "spDef": 45,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/412_f3.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412_f3.png"
+  },
+  {
+    "entryNumber": "413",
+    "name": "Sandy Cloak",
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "types": ["Bug", "Ground"],
+    "weaknesses": ["Fire", "Water", "Flying", "Ice"],
+    "baseStats": {
+      "hp": 60,
+      "attack": 79,
+      "defense": 105,
+      "spAtk": 59,
+      "spDef": 85,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/413_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413_f2.png"
+  },
+  {
+    "entryNumber": "413",
+    "name": "Sandy Cloak",
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "types": ["Ground", "Steel"],
+    "weaknesses": ["Fire"],
+    "baseStats": {
+      "hp": 60,
+      "attack": 69,
+      "defense": 95,
+      "spAtk": 69,
+      "spDef": 95,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/413_f3.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413_f3.png"
+  },
+  {
+    "entryNumber": "421",
+    "name": "Sunshine Form",
+    "description": "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "spAtk": 87,
+      "spDef": 78,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/421_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421_f2.png"
+  },
+  {
+    "entryNumber": "248",
+    "name": "Mega Tyranitar",
+    "description": "Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This Pokémon wanders about in mountains seeking new opponents to fight.",
+    "traits": {
+      "height": "8' 02\"",
+      "weight": 562.2
+    },
+    "category": "Armor",
+    "abilities": ["Sand Stream"],
+    "types": ["Dark", "Rock"],
+    "weaknesses": ["Steel", "Fighting", "Water", "Fairy", "Grass", "Bug", "Ground"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 164,
+      "defense": 150,
+      "spAtk": 95,
+      "spDef": 120,
+      "speed": 71
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/248_f2.png"
+  },
+  {
+    "entryNumber": "422",
+    "name": "East Sea",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 76,
+      "attack": 48,
+      "defense": 48,
+      "spAtk": 57,
+      "spDef": 62,
+      "speed": 34
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/422_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422_f2.png"
+  },
+  {
+    "entryNumber": "423",
+    "name": "East Sea",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "spAtk": 92,
+      "spDef": 82,
+      "speed": 39
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/423_f2.png"
+  },
+  {
+    "entryNumber": "428",
+    "name": "Mega Lopunny",
+    "description": "Extremely cautious, it quickly bounds off when it senses danger.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 62.4
+    },
+    "category": "Rabbit",
+    "abilities": ["Scrappy"],
+    "types": ["Normal", "Fighting"],
+    "weaknesses": ["Psychic", "Flying", "Fairy", "Fighting"],
+    "baseStats": {
+      "hp": 65,
+      "attack": 136,
+      "defense": 94,
+      "spAtk": 54,
+      "spDef": 96,
+      "speed": 135
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/428_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428_f2.png"
+  },
+  {
+    "entryNumber": "445",
+    "name": "Mega Garchomp",
+    "description": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+    "baseStats": {
+      "hp": 108,
+      "attack": 170,
+      "defense": 115,
+      "spAtk": 120,
+      "spDef": 95,
+      "speed": 92
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/445_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445_f2.png"
+  },
+  {
+    "entryNumber": "448",
+    "name": "Mega Lucario",
+    "description": "By catching the aura emanating from others, it can read their thoughts and movements.",
+    "abilities": ["Adaptability"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 145,
+      "defense": 88,
+      "spAtk": 140,
+      "spDef": 70,
+      "speed": 112
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/448_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448_f2.png"
+  },
+  {
+    "entryNumber": "460",
+    "name": "Mega Abomasnow",
+    "description": "It blankets wide areas in snow by whipping up blizzards. It is also known as “The Ice Monster.”",
+    "traits": {
+      "height": "8' 10\"",
+      "weight": 407.9
+    },
+    "baseStats": {
+      "hp": 90,
+      "attack": 132,
+      "defense": 105,
+      "spAtk": 132,
+      "spDef": 105,
+      "speed": 30
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/460_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460_f2.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Heat Rotom",
+    "description": "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.",
+    "types": ["Electric", "Fire"],
+    "weaknesses": ["Water", "Ground", "Rock"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f2.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Wash Rotom",
+    "description": "This form of Rotom enjoys coming up with water- based pranks. Be careful with it if you don't want your room flooded.",
+    "types": ["Electric", "Water"],
+    "weaknesses": ["Grass", "Ground"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479_f3.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f3.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Frost Rotom",
+    "description": "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.",
+    "types": ["Electric", "Ice"],
+    "weaknesses": ["Fire", "Ground", "Fighting", "Rock"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479_f4.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f4.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Fan Rotom",
+    "description": "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.",
+    "types": ["Electric", "Flying"],
+    "weaknesses": ["Ice", "Rock"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479_f5.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f5.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Mow Rotom",
+    "description": "This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.",
+    "types": ["Electric", "Grass"],
+    "weaknesses": ["Fire", "Ice", "Poison", "Bug"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479_f6.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f6.png"
+  },
+  {
+    "entryNumber": "487",
+    "name": "Origine Forme",
+    "description": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+    "traits": {
+      "height": "22' 08\"",
+      "weight": 1433
+    },
+    "abilities": ["Levitate"],
+    "baseStats": {
+      "hp": 150,
+      "attack": 120,
+      "defense": 100,
+      "spAtk": 120,
+      "spDef": 100,
+      "speed": 90
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/487_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487_f2.png"
+  },
+  {
+    "entryNumber": "492",
+    "name": "Sky Forme",
+    "description": "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 11.5
+    },
+    "abilities": ["Serene Grace"],
+    "types": ["Grass", "Flying"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Rock"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 103,
+      "defense": 75,
+      "spAtk": 120,
+      "spDef": 75,
+      "speed": 127
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/492_f2.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492_f2.png"
   }
 ]

@@ -16,19 +16,20 @@
         <div class="column">
           <img [src]="pokemon.imageUrl" [alt]="pokemon.name">
 
-          <div *ngIf="activePokemon.hasAlternateForms" class="form-switcher">
+          <div 
+            *ngIf="activePokemon.hasAlternateForms" 
+            class="form-switcher"
+            [class.form-switcher-2]="altForms.length >= 2">
             <button
               (click)="switchToActive()"
-              [class.button-width-2]="altForms.length >= 2"
               [disabled]="pokemon == activePokemon">
               {{ activePokemon.altName || activePokemon.name }}
             </button>
             <button
               (click)="switchForm(form)"           
               [disabled]="pokemon == form"
-              [class.button-width-2]="altForms.length >= 2"
               *ngFor="let form of altForms">
-              {{ form.name }}
+              {{ form.altName || form.name }}
             </button>
           </div>
         </div>
@@ -41,26 +42,32 @@
           <section class="session traits">
             <div class="column-2">
               <span class="label">Height</span>
-              <span class="data">{{ pokemon.traits.height }}</span>
+              <span class="data">
+                {{ pokemon?.traits?.height || activePokemon.traits.height }}
+              </span>
 
               <span class="label">Weight</span>
-              <span class="data">{{ pokemon.traits.weight | number:'1.1-1' }} lbs</span>
+              <span class="data" style="text-transform: none;">
+                {{ pokemon?.traits?.weight || activePokemon.traits.weight | number:'1.1-1' }} lbs
+              </span>
 
               <span class="label">Gender</span>
               <span class="data">
                 <i *ngIf="pokemon?.gender?.male" class="fas fa-mars"></i>
                 <i *ngIf="pokemon?.gender?.female" class="fas fa-venus"></i>
-                <span *ngIf="!pokemon.gender">Unknown</span>
+                <span *ngIf="!pokemon.gender">Genderless</span>
               </span>
             </div> 
 
             <div class="column-2">
               <span class="label">Category</span>
-              <span class="data">{{ pokemon.category }}</span>
+              <span class="data">
+                {{ pokemon.category || activePokemon.category }} Pokémon
+              </span>
 
               <span class="label">Abilities</span>
               <span 
-                *ngFor="let ability of pokemon.abilities"
+                *ngFor="let ability of pokemon?.abilities || activePokemon.abilities"
                 class="data">{{ ability }}</span>
             </div> 
           </section>
@@ -70,7 +77,7 @@
       
             <div class="type-wrapper-2">
               <div 
-                *ngFor="let type of pokemon.types"
+                *ngFor="let type of pokemon?.types || activePokemon.types"
                 class="pk-type pk-type-2 pk-type-{{ type | lowercase }}">
                 {{ type }}
               </div>
@@ -82,7 +89,7 @@
       
             <div class="type-wrapper-2">
               <div 
-                *ngFor="let type of pokemon.weaknesses"
+                *ngFor="let type of pokemon?.weaknesses || activePokemon.weaknesses"
                 class="pk-type pk-type-2 pk-type-{{ type | lowercase }}">
                 {{ type }}
               </div>
@@ -93,7 +100,7 @@
 
       <base-stats [pokemon]="pokemon"></base-stats>
     
-      <evolutions [pokemon]="pokemon"></evolutions>  
+      <evolutions [pokemon]="activePokemon"></evolutions>  
 
       <button (click)="onReturn()" class="explore-button">
         <span>Explore More</span>

@@ -1,56 +1,51 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
 
-interface NavbarLink {
-  label: string;
-  route: string;
-}
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
+
+interface NavbarLink { label: string, route: string; }
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent implements OnInit {
-  @ViewChild('header') private header: ElementRef<HTMLElement>;
-  private currentRoute: string;
-  isHome: boolean;
+export class NavbarComponent implements AfterViewInit {
+  @ViewChild('header') header: ElementRef<HTMLElement>; 
 
   navbarLinks: NavbarLink[] = [
     { label: 'Home', route: '/home' },
     { label: 'Pokédex', route: '/pokedex' },
-    { label: 'Video Games',  route: '/pokemon-video-games' },
+    { label: 'Video Games', route: '/pokemon-video-games' },
     { label: 'News', route: '/pokemon-news' },
   ];
   
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit(): void {
-    this.currentRoute = this.getCurrentRoute();
-    this.isHome = this.currentRoute == '/home' || this.currentRoute == '/';
+  ngAfterViewInit(): void {
+    this.router.events.pipe(
+      filter(events => events instanceof NavigationEnd)
+    ).subscribe((navigation: NavigationEnd) => {
+      this.setNavbarState(navigation);
+    });
   }
 
-  private getCurrentRoute(): string {
-    const url = window.location.href;
-    const route = url.slice(url.lastIndexOf('/'));
-
-    return route == '/' ? '/home' : route;
-  }
-
-  routerTest(nextRoute?: string): void {
+  private setNavbarState(navigation: NavigationEnd): void {
     const header = this.header.nativeElement;
+    let url = navigation.urlAfterRedirects;
+    let id = navigation.id;
 
-    if (this.currentRoute == nextRoute) { return; }
-    
-    else if (this.currentRoute == '/home') {
-      header.className = 'collapse';
+    if (id == 1 && url !== '/home') {
+      header.className = 'collapse-static';
     }
-    else if (
-      this.currentRoute !== '/home' && nextRoute == '/home'
-    ) {
+    else if (id > 1 && url !== '/home') {
+      if (!header.classList.contains('collapse-static')) {
+        header.className = 'collapse';
+      }
+    }
+    else if (id > 1 && url == '/home') {
       header.className = 'expand';
     }
-    this.currentRoute = nextRoute;
   }
-
 }

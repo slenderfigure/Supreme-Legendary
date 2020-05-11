@@ -11932,5 +11932,2210 @@
     },
     "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/386.png",
     "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png"
+  },
+  {
+    "entryNumber": "387",
+    "name": "Turtwig",
+    "description": "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 22.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Tiny Leaf",
+    "abilities": ["Overgrow"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "evolutions": [387, 388, 389],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 55,
+      "attack": 68,
+      "defense": 64,
+      "spAtk": 45,
+      "spDef": 55,
+      "speed": 31
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/387.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/387.png"
+  },
+  {
+    "entryNumber": "388",
+    "name": "Grotle",
+    "description": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+    "traits": {
+      "height": "3' 07\"",
+      "weight": 213.8
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Grove",
+    "abilities": ["Overgrow"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "evolutions": [387, 388, 389],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 75,
+      "attack": 89,
+      "defense": 85,
+      "spAtk": 55,
+      "spDef": 65,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/388.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/388.png"
+  }, {
+    "entryNumber": "389",
+    "name": "Torterra",
+    "description": "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled.",
+    "traits": {
+      "height": "7' 03\"",
+      "weight": 683.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Continent",
+    "abilities": ["Overgrow"],
+    "types": ["Grass", "Ground"],
+    "weaknesses": ["Fire", "Flying", "Bug", "Ice"],
+    "evolutions": [387, 388, 389],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 95,
+      "attack": 109,
+      "defense": 105,
+      "spAtk": 75,
+      "spDef": 85,
+      "speed": 56
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/389.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/389.png"
+  },
+  {
+    "entryNumber": "390",
+    "name": "Chimchar",
+    "description": "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 13.7
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Chimp",
+    "abilities": ["Blaze"],
+    "types": ["Fire"],
+    "weaknesses": ["Water", "Ground", "Rock"],
+    "evolutions": [390, 391, 392],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 44,
+      "attack": 58,
+      "defense": 44,
+      "spAtk": 58,
+      "spDef": 44,
+      "speed": 61
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/390.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/390.png"
+  }, 
+  {
+    "entryNumber": "391",
+    "name": "Monferno",
+    "description": "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+    "traits": {
+      "height": "2' 11\"",
+      "weight": 48.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Playful",
+    "abilities": ["Blaze"],
+    "types": ["Fire", "Fighting"],
+    "weaknesses": ["Water", "Psychic", "Flying", "Ground"],
+    "evolutions": [390, 391, 392],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 64,
+      "attack": 78,
+      "defense": 52,
+      "spAtk": 78,
+      "spDef": 52,
+      "speed": 81
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/391.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/391.png"
+  }, 
+  {
+    "entryNumber": "392",
+    "name": "Infernape",
+    "description": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 121.3
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Flame",
+    "abilities": ["Blaze"],
+    "types": ["Fire", "Fighting"],
+    "weaknesses": ["Water", "Psychic", "Flying", "Ground"],
+    "evolutions": [390, 391, 392],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 76,
+      "attack": 104,
+      "defense": 71,
+      "spAtk": 104,
+      "spDef": 71,
+      "speed": 108
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/392.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/392.png"
+  },
+  {
+    "entryNumber": "393",
+    "name": "Piplup",
+    "description": "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 11.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Penguin",
+    "abilities": ["Torrent"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [393, 394, 395],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 53,
+      "attack": 51,
+      "defense": 53,
+      "spAtk": 61,
+      "spDef": 59,
+      "speed": 40
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/393.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/393.png"
+  }, 
+  {
+    "entryNumber": "394",
+    "name": "Prinplup",
+    "description": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 50.7
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Penguin",
+    "abilities": ["Torrent"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [393, 394, 395],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 64,
+      "attack": 66,
+      "defense": 68,
+      "spAtk": 81,
+      "spDef": 76,
+      "speed": 50
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/394.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/394.png"
+  }, 
+  {
+    "entryNumber": "395",
+    "name": "Empoleon",
+    "description": "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 186.3
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Emperor",
+    "abilities": ["Torrent"],
+    "types": ["Water", "Steel"],
+    "weaknesses": ["Electric", "Fighting", "Ground"],
+    "evolutions": [393, 394, 395],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 84,
+      "attack": 86,
+      "defense": 88,
+      "spAtk": 111,
+      "spDef": 101,
+      "speed": 60
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/395.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/395.png"
+  },
+  {
+    "entryNumber": "396",
+    "name": "Starly",
+    "description": "They flock in great numbers. Though small, they flap their wings with great power.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 4.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Starling",
+    "abilities": ["Keen Eye"],
+    "types": ["Normal", "Flying"],
+    "weaknesses": ["Electric", "Ice", "Rock"],
+    "evolutions": [396, 397, 398],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "spAtk": 30,
+      "spDef": 30,
+      "speed": 60
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/396.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/396.png"
+  },
+  {
+    "entryNumber": "397",
+    "name": "Staravia",
+    "description": "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+    "traits": {
+      "height": "2' 00\"",
+      "weight": 34.2
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Starling",
+    "abilities": ["Intimidate"],
+    "types": ["Normal", "Flying"],
+    "weaknesses": ["Electric", "Ice", "Rock"],
+    "evolutions": [396, 397, 398],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 50,
+      "spAtk": 40,
+      "spDef": 40,
+      "speed": 80
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/397.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/397.png"
+  },
+  {
+    "entryNumber": "398",
+    "name": "Staraptor",
+    "description": "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 54.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Predator",
+    "abilities": ["Intimidate"],
+    "types": ["Normal", "Flying"],
+    "weaknesses": ["Electric", "Ice", "Rock"],
+    "evolutions": [396, 397, 398],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 70,
+      "spAtk": 50,
+      "spDef": 60,
+      "speed": 100
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/398.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/398.png"
+  },
+  {
+    "entryNumber": "399",
+    "name": "Bidoof",
+    "description": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 44.1
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Plump Mouse",
+    "abilities": ["Simple", "Unaware"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "evolutions": [399, 400],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 59,
+      "attack": 45,
+      "defense": 40,
+      "spAtk": 35,
+      "spDef": 40,
+      "speed": 31
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/399.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/399.png"
+  },
+  {
+    "entryNumber": "400",
+    "name": "Bibarel",
+    "description": "It busily makes its nest with stacks of branches and roots it has cut up with its sharp incisors.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 69.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Beaver",
+    "abilities": ["Simple", "Unaware"],
+    "types": ["Normal", "Water"],
+    "weaknesses": ["Grass", "Electric", "Fighting"],
+    "evolutions": [399, 400],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 79,
+      "attack": 85,
+      "defense": 60,
+      "spAtk": 55,
+      "spDef": 60,
+      "speed": 71
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/400.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/400.png"
+  },
+  {
+    "entryNumber": "401",
+    "name": "Kricketot",
+    "description": "It chats with others using the sounds of its colliding antennae. These sounds are fall hallmarks.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 4.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Cricket",
+    "abilities": ["Shed Skin"],
+    "types": ["Bug"],
+    "weaknesses": ["Fire", "Flying", "Rock"],
+    "evolutions": [401, 402],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 37,
+      "attack": 25,
+      "defense": 41,
+      "spAtk": 25,
+      "spDef": 41,
+      "speed": 25
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/401.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/401.png"
+  }, 
+  {
+    "entryNumber": "402",
+    "name": "Kricketune",
+    "description": "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 56.2
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Cricket",
+    "abilities": ["Swarm"],
+    "types": ["Bug"],
+    "weaknesses": ["Fire", "Flying", "Rock"],
+    "evolutions": [401, 402],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 77,
+      "attack": 85,
+      "defense": 51,
+      "spAtk": 55,
+      "spDef": 51,
+      "speed": 65
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/402.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/402.png"
+  },
+  {
+    "entryNumber": "403",
+    "name": "Shinx",
+    "description": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 20.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Flash",
+    "abilities": ["Rivalry", "Intimidate"],
+    "types": ["Electric"],
+    "weaknesses": ["Ground"],
+    "evolutions": [403, 404, 405],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 45,
+      "attack": 65,
+      "defense": 34,
+      "spAtk": 40,
+      "spDef": 34,
+      "speed": 45
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/403.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/403.png"
+  }, 
+  {
+    "entryNumber": "404",
+    "name": "Luxio",
+    "description": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+    "traits": {
+      "height": "2' 11\"",
+      "weight": 67.2
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Spark",
+    "abilities": ["Rivalry", "Intimidate"],
+    "types": ["Electric"],
+    "weaknesses": ["Ground"],
+    "evolutions": [403, 404, 405],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 49,
+      "spAtk": 60,
+      "spDef": 49,
+      "speed": 60
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/404.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/404.png"
+  }, 
+  {
+    "entryNumber": "405",
+    "name": "Luxray",
+    "description": "When its eyes gleam gold, it can spot hiding prey—even those taking shelter behind a wall.",
+    "traits": {
+      "height": "4' 07\"",
+      "weight": 92.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Gleam Eyes",
+    "abilities": ["Rivalry", "Intimidate"],
+    "types": ["Electric"],
+    "weaknesses": ["Ground"],
+    "evolutions": [403, 404, 405],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 79,
+      "spAtk": 95,
+      "spDef": 79,
+      "speed": 70
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/405.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/405.png"
+  },
+  {
+    "entryNumber": "408",
+    "name": "Cranidos",
+    "description": "A primeval Pokémon, it possesses a hard and sturdy skull, lacking any intelligence within.",
+    "traits": {
+      "height": "2' 11\"",
+      "weight": 69.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Head Butt",
+    "abilities": ["Mold Breaker"],
+    "types": ["Rock"],
+    "weaknesses": ["Water", "Steel", "Grass", "Fighting", "Ground"],
+    "evolutions": [408, 409],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 67,
+      "attack": 125,
+      "defense": 40,
+      "spAtk": 30,
+      "spDef": 30,
+      "speed": 58
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/408.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/408.png"
+  },
+  {
+    "entryNumber": "409",
+    "name": "Rampardos",
+    "description": "In ancient times, people would dig up fossils of this Pokémon and use its skull, which is harder than steel, to make helmets.",
+    "traits": {
+      "height": "5' 03\"",
+      "weight": 226
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Head Butt",
+    "abilities": ["Mold Breaker"],
+    "types": ["Rock"],
+    "weaknesses": ["Water", "Steel", "Grass", "Fighting", "Ground"],
+    "evolutions": [408, 409],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 97,
+      "attack": 165,
+      "defense": 60,
+      "spAtk": 65,
+      "spDef": 50,
+      "speed": 58
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/409.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/409.png"
+  },
+  {
+    "entryNumber": "410",
+    "name": "Shieldon",
+    "description": "A mild-mannered, herbivorous Pokémon, it used its face to dig up tree roots to eat. The skin on its face was plenty tough.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 125.7
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Shield",
+    "abilities": ["Sturdy"],
+    "types": ["Rock", "Steel"],
+    "weaknesses": ["Water", "Fighting", "Ground"],
+    "evolutions": [410, 411],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 30,
+      "attack": 42,
+      "defense": 118,
+      "spAtk": 42,
+      "spDef": 88,
+      "speed": 30
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/410.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/410.png"
+  },
+  {
+    "entryNumber": "411",
+    "name": "Bastiodon",
+    "description": "The bones of its face are huge and hard, so they were mistaken for its spine until after this Pokémon was successfully restored.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 329.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Shield",
+    "abilities": ["Sturdy"],
+    "types": ["Rock", "Steel"],
+    "weaknesses": ["Water", "Fighting", "Ground"],
+    "evolutions": [410, 411],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 60,
+      "attack": 52,
+      "defense": 168,
+      "spAtk": 47,
+      "spDef": 138,
+      "speed": 30
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/411.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/411.png"
+  },
+  {
+    "entryNumber": "412",
+    "name": "Burmy",
+    "altName": "Plant Cloak",
+    "description": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    "traits": {
+      "height": "0' 08\"",
+      "weight": 7.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Bagworm",
+    "abilities": ["Shed Skin"],
+    "types": ["Bug"],
+    "weaknesses": ["Fire", "Flying", "Rock"],
+    "hasAlternateForms": true,
+    "alternateEvolutions": [413, 414],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "spAtk": 29,
+      "spDef": 45,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/412.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png"
+  },
+  {
+    "entryNumber": "413",
+    "name": "Wormadam",
+    "altName": "Plant Cloak",
+    "description": "Its appearance changes depending on where it evolved. The materials on hand become a part of its body.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 14.3
+    },
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "category": "Bagworm",
+    "abilities": ["Anticipation"],
+    "types": ["Bug", "Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Rock", "Bug"],
+    "hasAlternateForms": true,
+    "evolutions": [412, 413],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 60,
+      "attack": 59,
+      "defense": 85,
+      "spAtk": 79,
+      "spDef": 105,
+      "speed": 36
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/413.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png"
+  },
+  {
+    "entryNumber": "414",
+    "name": "Mothim",
+    "description": "It loves the honey of flowers and steals honey collected by Combee.",
+    "traits": {
+      "height": "2' 11\"",
+      "weight": 51.4
+    },
+    "gender": {
+      "male": true,
+      "female": false
+    },
+    "category": "Moth",
+    "abilities": ["Swarm"],
+    "types": ["Bug", "Flying"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Rock"],
+    "evolutions": [412, 414],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 70,
+      "attack": 94,
+      "defense": 50,
+      "spAtk": 94,
+      "spDef": 50,
+      "speed": 66
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/414.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png"
+  },
+  {
+    "entryNumber": "415",
+    "name": "Combee",
+    "description": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 12.1
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Tiny Bee",
+    "abilities": ["Honey Gather"],
+    "types": ["Bug", "Flying"],
+    "weaknesses": ["Fire", "Flying", "Electric", "Ice", "Rock"],
+    "evolutions": [415, 416],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 30,
+      "attack": 30,
+      "defense": 42,
+      "spAtk": 30,
+      "spDef": 42,
+      "speed": 70
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/415.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/415.png"
+  }, 
+  {
+    "entryNumber": "416",
+    "name": "Vespiquen",
+    "description": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 84.9
+    },
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "category": "Beehive",
+    "abilities": ["Pressure"],
+    "types": ["Bug", "Flying"],
+    "weaknesses": ["Fire", "Flying", "Electric", "Ice", "Rock"],
+    "evolutions": [415, 416],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 102,
+      "spAtk": 80,
+      "spDef": 102,
+      "speed": 40
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/416.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/416.png"
+  },
+  {
+    "entryNumber": "417",
+    "name": "Pachirisu",
+    "description": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 8.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "EleSquirrel",
+    "abilities": ["Run Away", "Pickup"],
+    "types": ["Electric"],
+    "weaknesses": ["Ground"],
+    "baseStats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 70,
+      "spAtk": 45,
+      "spDef": 90,
+      "speed": 95
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/417.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/417.png"
+  },
+  {
+    "entryNumber": "418",
+    "name": "Buizel",
+    "description": "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 65
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Sea Weasel",
+    "abilities": ["Swift Swim"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [418, 419],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 35,
+      "spAtk": 60,
+      "spDef": 30,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/418.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/418.png"
+  },
+  {
+    "entryNumber": "419",
+    "name": "Floatzel",
+    "description": "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
+    "traits": {
+      "height": "3' 07\"",
+      "weight": 73.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Sea Weasel",
+    "abilities": ["Swift Swim"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [418, 419],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 55,
+      "spAtk": 85,
+      "spDef": 50,
+      "speed": 115
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/419.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/419.png"
+  },
+  {
+    "entryNumber": "420",
+    "name": "Cherubi",
+    "description": "Sunlight colors it red. When the small ball is drained of nutrients, it shrivels to herald evolution.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 7.3
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Cherry",
+    "abilities": ["Chlorophyll"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "evolutions": [420, 421],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 45,
+      "attack": 35,
+      "defense": 45,
+      "spAtk": 62,
+      "spDef": 53,
+      "speed": 35
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/420.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/420.png"
+  },
+  {
+    "entryNumber": "421",
+    "name": "Cherrim",
+    "altName": "Overcast Form",
+    "description": "During times of strong sunlight, its bud blooms, its petals open fully, and it becomes very active.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 20.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Blossom",
+    "abilities": ["Flower Gift"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "hasAlternateForms": true,
+    "evolutions": [420, 421],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "spAtk": 87,
+      "spDef": 78,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/421.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png"
+  },
+  {
+    "entryNumber": "422",
+    "name": "Shellos",
+    "altName": "West Sea",
+    "description": "While they normally live in the sea, they can function on land, too, until their skin dries out.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 13.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Sea Slug",
+    "abilities": ["Sticky Hold", "Storm Drain"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "hasAlternateForms": true,
+    "evolutions": [422, 423],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 76,
+      "attack": 48,
+      "defense": 48,
+      "spAtk": 57,
+      "spDef": 62,
+      "speed": 34
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/422.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png"
+  },
+  {
+    "entryNumber": "423",
+    "name": "Gastrodon",
+    "altName": "West Sea",
+    "description": "It secretes a purple fluid to deter enemies. This fluid isn't poisonous—instead, it's super sticky, and once it sticks, it's very hard to unstick.",
+    "traits": {
+      "height": "2' 11\"",
+      "weight": 65.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Sea Slug",
+    "abilities": ["Sticky Hold", "Storm Drain"],
+    "types": ["Water", "Ground"],
+    "weaknesses": ["Grass"],
+    "hasAlternateForms": true,
+    "evolutions": [422, 423],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "spAtk": 92,
+      "spDef": 82,
+      "speed": 39
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/423.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png"
+  },
+  {
+    "entryNumber": "425",
+    "name": "Drifloon",
+    "description": "Its round body is stuffed with souls and expands each time it leads someone away.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 2.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Balloon",
+    "abilities": ["Aftermath", "Unburden"],
+    "types": ["Ghost", "Flying"],
+    "weaknesses": ["Ghost", "Dark", "Electric", "Ice", "Rock"],
+    "evolutions": [425, 426],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 90,
+      "attack": 50,
+      "defense": 34,
+      "spAtk": 60,
+      "spDef": 44,
+      "speed": 70
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/425.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/425.png"
+  },
+  {
+    "entryNumber": "426",
+    "name": "Drifblim",
+    "description": "There's a rumor that if you catch a Drifblim floating on the wind at dusk, you'll be carried away to the afterlife.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 33.1
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Blimp",
+    "abilities": ["Aftermath", "Unburden"],
+    "types": ["Ghost", "Flying"],
+    "weaknesses": ["Ghost", "Dark", "Electric", "Ice", "Rock"],
+    "evolutions": [425, 426],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 150,
+      "attack": 80,
+      "defense": 44,
+      "spAtk": 90,
+      "spDef": 54,
+      "speed": 80
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/426.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/426.png"
+  },
+  {
+    "entryNumber": "427",
+    "name": "Buneary",
+    "description": "Its arms and legs are weak, but when it rolls its ears up tight and then unleashes them with its full force, it can smash boulders to dust.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 12.1
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Rabbit",
+    "abilities": ["Run Away", "Klutz"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "evolutions": [427, 428],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 55,
+      "attack": 66,
+      "defense": 44,
+      "spAtk": 44,
+      "spDef": 56,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/427.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/427.png"
+  },
+  {
+    "entryNumber": "428",
+    "name": "Lopunny",
+    "description": "Lopunny regrows its coat twice a year. Mufflers and hats made from its fur are really warm.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 73.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Rabbit",
+    "abilities": ["Cute Charm", "Klutz"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "hasAlternateForms": true,
+    "evolutions": [427, 428],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 65,
+      "attack": 76,
+      "defense": 84,
+      "spAtk": 54,
+      "spDef": 96,
+      "speed": 105
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/428.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png"
+  },
+  {
+    "entryNumber": "431",
+    "name": "Glameow",
+    "description": "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 8.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Catty",
+    "abilities": ["Limber", "Own Tempo"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "evolutions": [431, 432],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 49,
+      "attack": 55,
+      "defense": 42,
+      "spAtk": 42,
+      "spDef": 37,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/431.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/431.png"
+  },
+  {
+    "entryNumber": "432",
+    "name": "Purugly",
+    "description": "It would claim another Pokémon's nest as its own if it finds a nest sufficiently comfortable.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 96.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Tiger Cat",
+    "abilities": ["Own Tempo", "Thick Fat"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "evolutions": [431, 432],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 71,
+      "attack": 85,
+      "defense": 64,
+      "spAtk": 64,
+      "spDef": 59,
+      "speed": 112
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/432.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/432.png"
+  },
+  {
+    "entryNumber": "434",
+    "name": "Stunky",
+    "description": "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 42.3
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Skunk",
+    "abilities": ["Stench", "Aftermath"],
+    "types": ["Poison", "Dark"],
+    "weaknesses": ["Ground"],
+    "evolutions": [434, 435],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 63,
+      "attack": 63,
+      "defense": 47,
+      "spAtk": 41,
+      "spDef": 41,
+      "speed": 74
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/434.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/434.png"
+  }, 
+  {
+    "entryNumber": "435",
+    "name": "Skuntank",
+    "description": "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 83.8
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Skunk",
+    "abilities": ["Stench", "Aftermath"],
+    "types": ["Poison", "Dark"],
+    "weaknesses": ["Ground"],
+    "evolutions": [434, 435],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 103,
+      "attack": 96,
+      "defense": 67,
+      "spAtk": 71,
+      "spDef": 61,
+      "speed": 84
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/435.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/435.png"
+  },
+  {
+    "entryNumber": "436",
+    "name": "Bronzor",
+    "description": "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 133.4
+    },
+    "category": "Bronze",
+    "abilities": ["Levitate", "Heatproof"],
+    "types": ["Steel", "Psychic"],
+    "weaknesses": ["Ghost", "Fire", "Dark", "Ground"],
+    "evolutions": [436, 437],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 57,
+      "attack": 24,
+      "defense": 86,
+      "spAtk": 24,
+      "spDef": 86,
+      "speed": 23
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/436.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/436.png"
+  }, 
+  {
+    "entryNumber": "437",
+    "name": "Bronzong",
+    "description": "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 412.3
+    },
+    "category": "Bronze Bell",
+    "abilities": ["Levitate", "Heatproof"],
+    "types": ["Steel", "Psychic"],
+    "weaknesses": ["Ghost", "Fire", "Dark", "Ground"],
+    "evolutions": [436, 437],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 67,
+      "attack": 89,
+      "defense": 116,
+      "spAtk": 79,
+      "spDef": 116,
+      "speed": 33
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/437.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/437.png"
+  },
+  {
+    "entryNumber": "441",
+    "name": "Chatot",
+    "description": "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 4.2
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Music Note",
+    "abilities": ["Keen Eye", "Tangled Feet"],
+    "types": ["Normal", "Flying"],
+    "weaknesses": ["Electric", "Ice", "Rock"],
+    "baseStats": {
+      "hp": 76,
+      "attack": 65,
+      "defense": 45,
+      "spAtk": 92,
+      "spDef": 42,
+      "speed": 91
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/441.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/441.png"
+  },
+  {
+    "entryNumber": "442",
+    "name": "Spiritomb",
+    "description": "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 238.1
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Forbidden",
+    "abilities": ["Pressure"],
+    "types": ["Ghost", "Dark"],
+    "weaknesses": ["Electric", "Ice", "Rock", "Fairy"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 92,
+      "defense": 108,
+      "spAtk": 92,
+      "spDef": 108,
+      "speed": 35
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/442.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/442.png"
+  },
+  {
+    "entryNumber": "443",
+    "name": "Gible",
+    "description": "It reacts to anything that moves—flies right at it and bites it. Sometimes it injures itself, but it doesn't care too much.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 45.2
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Land Shark",
+    "abilities": ["Sand Veil"],
+    "types": ["Dragon", "Ground"],
+    "weaknesses": ["Fairy", "Ice", "Dragon"],
+    "evolutions": [443, 444, 445],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 58,
+      "attack": 70,
+      "defense": 45,
+      "spAtk": 40,
+      "spDef": 45,
+      "speed": 42
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/443.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png"
+  },
+  {
+    "entryNumber": "444",
+    "name": "Gabite",
+    "description": "It loves shiny things. When it finds a Sableye trying to catch a Carbink, Gabite becomes furiously angry and attacks the Sableye.",
+    "traits": {
+      "height": "4' 07\"",
+      "weight": 123.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Cave",
+    "abilities": ["Sand Veil"],
+    "types": ["Dragon", "Ground"],
+    "weaknesses": ["Fairy", "Ice", "Dragon"],
+    "evolutions": [443, 444, 445],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 68,
+      "attack": 90,
+      "defense": 65,
+      "spAtk": 50,
+      "spDef": 55,
+      "speed": 82
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/444.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png"
+  },
+  {
+    "entryNumber": "445",
+    "name": "Garchomp",
+    "description": "It flies at the speed of sound while searching for prey, and it has midair battles with Salamence as the two compete for food.",
+    "traits": {
+      "height": "6' 03\"",
+      "weight": 209.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mach",
+    "abilities": ["Sand Veil"],
+    "types": ["Dragon", "Ground"],
+    "weaknesses": ["Fairy", "Ice", "Dragon"],
+    "hasAlternateForms": true,
+    "evolutions": [443, 444, 445],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "spAtk": 80,
+      "spDef": 85,
+      "speed": 102
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/445.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png"
+  },
+  {
+    "entryNumber": "447",
+    "name": "Riolu",
+    "description": "It knows how people and Pokémon feel by looking at their auras. It doesn't approach dangerous opponents.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 44.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Emanation",
+    "abilities": ["Inner Focus", "Steadfast"],
+    "types": ["Fighting"],
+    "weaknesses": ["Psychic", "Flying", "Fairy"],
+    "evolutions": [447, 448],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 40,
+      "attack": 70,
+      "defense": 40,
+      "spAtk": 35,
+      "spDef": 40,
+      "speed": 60
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/447.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/447.png"
+  },
+  {
+    "entryNumber": "448",
+    "name": "Lucario",
+    "description": "It concentrates its mental energy and fires off mysterious waves called auras, which can crush boulders of large size to dust.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 119
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Aura",
+    "abilities": ["Inner Focus", "Steadfast"],
+    "types": ["Fighting", "Steel"],
+    "weaknesses": ["Fire", "Fighting", "Ground"],
+    "hasAlternateForms": true,
+    "evolutions": [447, 448],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "spAtk": 115,
+      "spDef": 70,
+      "speed": 90
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png"
+  },
+  {
+    "entryNumber": "449",
+    "name": "Hippopotas",
+    "description": "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 109.1
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Hippo",
+    "abilities": ["Sand Stream"],
+    "types": ["Ground"],
+    "weaknesses": ["Water", "Grass", "Ice"],
+    "evolutions": [449, 450],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 68,
+      "attack": 72,
+      "defense": 78,
+      "spAtk": 38,
+      "spDef": 42,
+      "speed": 32
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/449.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/449.png"
+  }, 
+  {
+    "entryNumber": "450",
+    "name": "Hippowdon",
+    "description": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+    "traits": {
+      "height": "6' 07\"",
+      "weight": 661.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Heavyweight",
+    "abilities": ["Sand Stream"],
+    "types": ["Ground"],
+    "weaknesses": ["Water", "Grass", "Ice"],
+    "evolutions": [449, 450],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "spAtk": 68,
+      "spDef": 72,
+      "speed": 47
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/450.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png"
+  },
+  {
+    "entryNumber": "451",
+    "name": "Skorupi",
+    "description": "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 26.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Scorpion",
+    "abilities": ["Sniper", "Battle Armor"],
+    "types": ["Poison", "Bug"],
+    "weaknesses": ["Fire", "Psychic", "Flying", "Rock"],
+    "evolutions": [451, 452],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 90,
+      "spAtk": 30,
+      "spDef": 55,
+      "speed": 65
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/451.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/451.png"
+  }, 
+  {
+    "entryNumber": "452",
+    "name": "Drapion",
+    "description": "It takes pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 135.6
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Ogre Scorpion",
+    "abilities": ["Sniper", "Battle Armor"],
+    "types": ["Poison", "Dark"],
+    "weaknesses": ["Ground"],
+    "evolutions": [451, 452],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 110,
+      "spAtk": 60,
+      "spDef": 75,
+      "speed": 95
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/452.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/452.png"
+  },
+  {
+    "entryNumber": "453",
+    "name": "Croagunk",
+    "description": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 50.7
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Toxic Mouth",
+    "abilities": ["Dry Skin", "Anticipation"],
+    "types": ["Poison", "Fighting"],
+    "weaknesses": ["Psychic", "Flying", "Ground"],
+    "evolutions": [453, 454],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 48,
+      "attack": 61,
+      "defense": 40,
+      "spAtk": 61,
+      "spDef": 40,
+      "speed": 50
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/453.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/453.png"
+  },
+  {
+    "entryNumber": "454",
+    "name": "Toxicroak",
+    "description": "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 97.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Toxic Mouth",
+    "abilities": ["Dry Skin", "Anticipation"],
+    "types": ["Poison", "Fighting"],
+    "weaknesses": ["Psychic", "Flying", "Ground"],
+    "evolutions": [453, 454],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 83,
+      "attack": 106,
+      "defense": 65,
+      "spAtk": 86,
+      "spDef": 65,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/454.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/454.png"
+  },
+  {
+    "entryNumber": "455",
+    "name": "Carnivine",
+    "description": "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+    "traits": {
+      "height": "4' 07\"",
+      "weight": 59.5
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Bug Catcher",
+    "abilities": ["Levitate"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "baseStats": {
+      "hp": 74,
+      "attack": 100,
+      "defense": 72,
+      "spAtk": 90,
+      "spDef": 72,
+      "speed": 46
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/455.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/455.png"
+  },
+  {
+    "entryNumber": "456",
+    "name": "Finneon",
+    "description": "When night falls, their pink patterns begin to shine. They're popular with divers, so there are resorts that feed them to keep them close.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 15.4
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Wing Fish",
+    "abilities": ["Swift Swim", "Storm Drain"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [456, 457],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 49,
+      "attack": 49,
+      "defense": 56,
+      "spAtk": 49,
+      "spDef": 61,
+      "speed": 66
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/456.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/456.png"
+  },
+  {
+    "entryNumber": "457",
+    "name": "Lumineon",
+    "description": "Deep down at the bottom of the ocean, prey is scarce. Lumineon get into fierce disputes with Lanturn over food.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 52.9
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Neon",
+    "abilities": ["Swift Swim", "Storm Drain"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [456, 457],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 69,
+      "attack": 69,
+      "defense": 76,
+      "spAtk": 69,
+      "spDef": 86,
+      "speed": 91
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/457.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/457.png"
+  },
+  {
+    "entryNumber": "459",
+    "name": "Snover",
+    "description": "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 111.3
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Frost Tree",
+    "abilities": ["Snow Warning"],
+    "types": ["Grass", "Ice"],
+    "weaknesses": ["Steel", "Fire", "Flying", "Poison", "Fighting", "Rock", "Bug"],
+    "evolutions": [459, 460],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 50,
+      "spAtk": 62,
+      "spDef": 60,
+      "speed": 40
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/459.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/459.png"
+  },
+  {
+    "entryNumber": "460",
+    "name": "Abomasnow",
+    "description": "It blankets wide areas in snow by whipping up blizzards. It is also known as “The Ice Monster.”",
+    "traits": {
+      "height": "7' 03\"",
+      "weight": 298.7
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Frost Tree",
+    "abilities": ["Snow Warning"],
+    "types": ["Grass", "Ice"],
+    "weaknesses": ["Steel", "Fire", "Flying", "Poison", "Fighting", "Rock", "Bug"],
+    "hasAlternateForms": true,
+    "evolutions": [459, 460],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 75,
+      "spAtk": 92,
+      "spDef": 85,
+      "speed": 60
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/460.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Rotom",
+    "description": "Research continues on this Pokémon, which could be the power source of a unique motor.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 0.7
+    },
+    "category": "Plasma",
+    "abilities": ["Levitate"],
+    "types": ["Electric", "Ghost"],
+    "weaknesses": ["Ghost", "Dark", "Rock"],
+    "hasAlternateForms": true,
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 77,
+      "spAtk": 95,
+      "spDef": 77,
+      "speed": 91
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png"
+  },
+  {
+    "entryNumber": "480",
+    "name": "Uxie",
+    "description": "Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 0.7
+    },
+    "category": "Knowledge",
+    "abilities": ["Levitate"],
+    "types": ["Psychic"],
+    "weaknesses": ["Ghost", "Dark", "Bug"],
+    "baseStats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 130,
+      "spAtk": 75,
+      "spDef": 130,
+      "speed": 95
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/480.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/480.png"
+  },
+  {
+    "entryNumber": "481",
+    "name": "Mesprit",
+    "description": "Known as “The Being of Emotion.” It taught humans the nobility of sorrow, pain, and joy.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 0.7
+    },
+    "category": "Emotion",
+    "abilities": ["Levitate"],
+    "types": ["Psychic"],
+    "weaknesses": ["Ghost", "Dark", "Bug"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 105,
+      "spAtk": 105,
+      "spDef": 105,
+      "speed": 80
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/481.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/481.png"
+  },
+  {
+    "entryNumber": "482",
+    "name": "Azelf",
+    "description": "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 0.7
+    },
+    "category": "Willpower",
+    "abilities": ["Levitate"],
+    "types": ["Psychic"],
+    "weaknesses": ["Ghost", "Dark", "Bug"],
+    "baseStats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 70,
+      "spAtk": 125,
+      "spDef": 70,
+      "speed": 115
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/482.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/482.png"
+  },
+  {
+    "entryNumber": "483",
+    "name": "Dialga",
+    "description": "A Pokémon spoken of in legend. It is said that time began moving when Dialga was born.",
+    "traits": {
+      "height": "17' 09\"",
+      "weight": 1505.8
+    },
+    "category": "Temporal",
+    "abilities": ["Pressure"],
+    "types": ["Steel", "Dragon"],
+    "weaknesses": ["Fighting", "Ground"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 120,
+      "spAtk": 150,
+      "spDef": 100,
+      "speed": 90
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/483.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/483.png"
+  },
+  {
+    "entryNumber": "484",
+    "name": "Palkia",
+    "description": "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+    "traits": {
+      "height": "13' 09\"",
+      "weight": 740.8
+    },
+    "category": "Spatial",
+    "abilities": ["Pressure"],
+    "types": ["Water", "Dragon"],
+    "weaknesses": ["Fairy", "Dragon"],
+    "baseStats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 100,
+      "spAtk": 150,
+      "spDef": 120,
+      "speed": 100
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/484.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/484.png"
+  },
+  {
+    "entryNumber": "485",
+    "name": "Heatran",
+    "description": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 948
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Lava Dome",
+    "abilities": ["Flash Fire"],
+    "types": ["Fire", "Steel"],
+    "weaknesses": ["Water", "Fighting", "Ground"],
+    "baseStats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 106,
+      "spAtk": 130,
+      "spDef": 106,
+      "speed": 77
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/485.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/485.png"
+  },
+  {
+    "entryNumber": "486",
+    "name": "Regigigas",
+    "description": "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
+    "traits": {
+      "height": "12' 02\"",
+      "weight": 925.9
+    },
+    "category": "Colossal",
+    "abilities": ["Slow Start"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "baseStats": {
+      "hp": 110,
+      "attack": 160,
+      "defense": 110,
+      "spAtk": 80,
+      "spDef": 110,
+      "speed": 100
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/486.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/486.png"
+  },
+  {
+    "entryNumber": "487",
+    "name": "Giratina",
+    "altName": "Altered Forme",
+    "description": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+    "traits": {
+      "height": "14' 09\"",
+      "weight": 1653.5
+    },
+    "category": "Renegade",
+    "abilities": ["Pressure"],
+    "types": ["Ghost", "Dragon"],
+    "weaknesses": ["Ghost", "Dark", "Fairy", "Ice", "Dragon"],
+    "hasAlternateForms": true,
+    "baseStats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 120,
+      "spAtk": 100,
+      "spDef": 120,
+      "speed": 90
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/487.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png"
+  },
+  {
+    "entryNumber": "488",
+    "name": "Cresselia",
+    "description": "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+    "traits": {
+      "height": "4' 11\"",
+      "weight": 188.7
+    },
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "category": "Lunar",
+    "abilities": ["Levitate"],
+    "types": ["Psychic"],
+    "weaknesses": ["Ghost", "Dark", "Bug"],
+    "baseStats": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 120,
+      "spAtk": 75,
+      "spDef": 130,
+      "speed": 85
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/488.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/488.png"
+  },
+  {
+    "entryNumber": "489",
+    "name": "Phione",
+    "description": "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 6.8
+    },
+    "category": "Sea Drifter",
+    "abilities": ["Hydration"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "spAtk": 80,
+      "spDef": 80,
+      "speed": 80
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/489.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/489.png"
+  }, 
+  {
+    "entryNumber": "490",
+    "name": "Manaphy",
+    "description": "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 3.1
+    },
+    "category": "Seafaring",
+    "abilities": ["Hydration"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 100
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/490.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/490.png"
+  },
+  {
+    "entryNumber": "491",
+    "name": "Darkrai",
+    "description": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+    "traits": {
+      "height": "4' 11\"",
+      "weight": 111.3
+    },
+    "category": "Pitch-Black",
+    "abilities": ["Bad Dreams"],
+    "types": ["Dark"],
+    "weaknesses": ["Fairy", "Bug", "Fighting"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 90,
+      "spAtk": 135,
+      "spDef": 90,
+      "speed": 125
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/491.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/491.png"
+  },
+  {
+    "entryNumber": "492",
+    "name": "Shaymin",
+    "altName": "Land Forme",
+    "description": "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+    "traits": {
+      "height": "0' 08\"",
+      "weight": 4.6
+    },
+    "category": "Gratitude",
+    "abilities": ["Natural Cure"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "hasAlternateForms": true,
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 100
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png"
+  },
+  {
+    "entryNumber": "493",
+    "name": "Arceus",
+    "description": "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world.",
+    "traits": {
+      "height": "10' 06\"",
+      "weight": 705.5
+    },
+    "category": "Alpha",
+    "abilities": ["Multitype"],
+    "types": ["Normal"],
+    "weaknesses": ["Fighting"],
+    "baseStats": {
+      "hp": 120,
+      "attack": 120,
+      "defense": 120,
+      "spAtk": 120,
+      "spDef": 120,
+      "speed": 120
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png"
+  },
+  {
+    "entryNumber": "494",
+    "name": "Victini",
+    "description": "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 8.8
+    },
+    "category": "Victory",
+    "abilities": ["Victory Star"],
+    "types": ["Psychic", "Fire"],
+    "weaknesses": ["Ghost", "Water", "Ground", "Dark", "Rock"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 100
+    },
+    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/494.png",
+    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/494.png"
   }
 ]

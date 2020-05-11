@@ -1,9 +1,8 @@
-<header #header [class.collapse-static]="!isHome">
+<header #header>
   <div class="header-design"></div>
   <nav class="navbar">
     <div class="wrapper">
       <a 
-        (click)="routerTest('/home')"
         [routerLink]="['/home']" class="logo">
         <div class="strike"></div>
         <div class="center"></div>
@@ -12,7 +11,6 @@
       <ul>
         <li *ngFor="let link of navbarLinks">
           <a
-            (click)="routerTest(link.route)"
             [routerLink]="[link.route]" 
             routerLinkActive="active-link">{{ link.label }}</a>
           <div class="indicator"></div>

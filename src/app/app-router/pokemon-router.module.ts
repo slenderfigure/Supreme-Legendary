@@ -9,9 +9,9 @@ import { PokemonDetailsComponent } from '../components/pokemon-details/pokemon-d
 
 const routes: Route[] = [
   { path: 'home', component: DashboardComponent },
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'pokedex', component: PokemonListComponent },
   { path: 'pokedex/:name', component: PokemonDetailsComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];
 
