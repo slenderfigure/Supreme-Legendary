@@ -17,8 +17,9 @@ export class NavbarComponent implements AfterViewInit {
   navbarLinks: NavbarLink[] = [
     { label: 'Home', route: '/home' },
     { label: 'Pokédex', route: '/pokedex' },
+    { label: 'Add Pokemon', route: '/add-new' },
     { label: 'Video Games', route: '/pokemon-video-games' },
-    { label: 'News', route: '/pokemon-news' },
+    { label: 'News', route: '/pokemon-news' }
   ];
   
   constructor(private router: Router) { }

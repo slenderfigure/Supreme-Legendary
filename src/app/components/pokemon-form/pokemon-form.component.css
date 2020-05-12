@@ -1,14 +1,47 @@
+input {
+  margin: 0;
+  padding: 0;
+}
+
 .pokemon-form {
   max-width: 300px;
-  margin: 0 auto 2rem;
+  margin: 4rem auto 2rem;
   animation: reveal 0.8s ease;
 }
 
 .title {
+  color: #666;
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
   margin-bottom: 2.5rem;
+}
+
+.alt-pokemon-form {
+  display: block;
+  width: 100%;
+  margin: 2rem 0;  
+  cursor: pointer;
+  user-select: none;
+}
+
+.alt-pokemon-form input {
+  display: none;
+}
+
+.alt-pokemon-form span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  color: #444;
+  border-radius: 4px;
+  background-color: rgba(35, 80, 129, 0.2);
+}
+
+.alt-pokemon-form input:checked + span {
+  background-color: #abceb1;
 }
 
 .form-group {

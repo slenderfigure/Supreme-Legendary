@@ -3,14 +3,17 @@
     (ngSubmit)="onSubmit()"
     [formGroup]="pokemonForm" 
     class="pokemon-form">
-    <h3 class="title">Create a Pokémon Entry</h3>
+    <h3 class="title">Add new Pokémon</h3>
 
     <!-- Pokemon Image Preview -->
     <image-previewer [imgPreview]="imgPreview"></image-previewer>
 
-    <label style="display: block; margin-bottom: 1rem;">
-      <input (change)="isAlternate = !isAlternate" type="checkbox">
-      <span> Alternate Form</span>
+    <label class="alt-pokemon-form">
+      <input (change)="isAlternate = !isAlternate" type="checkbox">   
+      <span>
+        Alternate Form
+        {{ isAlternate ? 'Enabled' : 'Disabled' }}
+      </span>
     </label>
 
     <div *ngFor="let field of fields" class="form-group">

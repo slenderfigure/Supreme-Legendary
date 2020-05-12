@@ -5,6 +5,7 @@ import { Observable, throwError, fromEvent, of } from 'rxjs';
 import { map, filter, tap, catchError, delay } from 'rxjs/operators';
 
 import { Pokemon } from '../components/pokemon';
+import { CustomFormControls } from '../components/form-control';
 
 
 @Injectable({providedIn: 'root'})
@@ -55,6 +56,12 @@ export class PokemonService {
     );
   }
 
+  get formFields(): Observable<CustomFormControls[]> {
+    return this.http.get<CustomFormControls[]>('../api/form-fields.json').pipe(
+      catchError(this.errorHandler)
+    );
+  }
+
   private errorHandler(err: HttpErrorResponse) {
     let errorMessage = '';
 
@@ -66,16 +73,4 @@ export class PokemonService {
     return throwError(errorMessage);
   }
 
-  getImage(): Observable<{ imageUrl: string}> {
-    return of({ imageUrl: "https://wallpaperaccess.com/full/752775.jpg" });
-  }
-
-  createForm(fields: any[]): FormGroup {
-    let group: any = {};
-
-    fields.forEach(field => {
-      group[field.key] = new FormControl(field.value || '', Validators.required);
-    });
-    return new FormGroup(group);
-  }
 }

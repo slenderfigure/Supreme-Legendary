@@ -1,8 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 import { Pokemon } from '../pokemon';
 import { PokemonService } from 'src/app/services/pokemon.service';
+import { CustomFormControls } from '../form-control';
 
 @Component({
   selector: 'pokemon-form',
@@ -13,13 +14,14 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   ]
 })
 export class PokemonFormComponent implements OnInit {
-  @Input() fields: any[];
+  fields: CustomFormControls[];
   pokemonForm: FormGroup;
   isAlternate: boolean = false;
 
   pokemon: Pokemon = {
     entryNumber: '',
     name: '',
+    altName: '',
     description: '',
     traits: {
       height: '',
@@ -54,18 +56,31 @@ export class PokemonFormComponent implements OnInit {
   constructor(private ps: PokemonService) { }
 
   ngOnInit(): void {
-    this.pokemonForm = this.ps.createForm(this.fields);
-    this.types = this.ps.types; 
+    this.ps.formFields.subscribe(fields => {
+      this.fields = fields;
+      this.createForm(this.fields);
+    });
   }
 
   ngAfterViewInit(): void {
-    this.pokemonForm.get('entryNumber').valueChanges.subscribe(val => {
-      if (val) {
-        this.imgPreview = 
-        !this.isAlternate ? `${this.externalImageUrl}detail/${val}.png` :
-        `${this.externalImageUrl}detail/${val}_f2.png`;
-      }
+    setTimeout(() => {
+      this.pokemonForm.get('entryNumber').valueChanges.subscribe(val => {
+        if (val) {
+          this.imgPreview = 
+          !this.isAlternate ? `${this.externalImageUrl}detail/${val}.png` :
+          `${this.externalImageUrl}detail/${val}_f2.png`;
+        }
+      });
+    }, 500);
+  }
+
+  createForm(fields: CustomFormControls[]): void {
+    let group: any = {};
+
+    fields.forEach(field => {
+      group[field.key] = new FormControl(field.value || '', Validators.required);
     });
+    this.pokemonForm = new FormGroup(group);
   }
 
   onSubmit(): void {
@@ -74,40 +89,65 @@ export class PokemonFormComponent implements OnInit {
 
   sanitaziePokemonData(): void {
     this.resetPokemon();
-    
+    this.managePokemonImage();
+    this.manageName();
     this.pokemon.entryNumber = this.pokemonForm.get('entryNumber').value.trim();
+    this.manageBasicInformation();
+    this.manageGender();
+    this.pokemon.category = this.pokemonForm.get('category').value.trim();
+    this.pokemon.abilities = this.selectedAbilities;
+    this.pokemon.types = this.pokemonTypes;
+    this.pokemon.weaknesses = this.pokemonWeaknesses;
+    this.manageEvolutions();
+    this.manageBaseStats();
+  }
 
+  private resetPokemon(): void {
+    this.pokemon['gender'] = { female: false, male: false }
+  }
+
+  private managePokemonImage(): void {
     this.pokemon.imageUrl = 
       !this.isAlternate ? `${this.externalImageUrl}full/${this.pokemon.entryNumber}.png` :
       `${this.externalImageUrl}full/${this.pokemon.entryNumber}_f2.png`;
 
     this.pokemon.iconUrl = this.imgPreview;
+  }
 
-    this.pokemon.name = this.pokemonForm.get('name').value.trim() || 'Alolan Form';
+  private manageName(): void {
+    if (this.isAlternate) {
+      this.pokemon.name = this.pokemonForm.get('name').value.trim() || 'Alolan Form';
+    } else {
+      this.pokemon.name = this.pokemonForm.get('name').value.trim();
+    }
 
+    if (this.pokemonForm.get('altName').value) {
+      this.pokemon.altName = this.pokemonForm.get('altName').value.trim();
+    } else {
+      delete this.pokemon.altName;
+    }
+  }
+
+  private manageBasicInformation(): void {
     this.pokemon.description = this.pokemonForm.get('description').value.trim();
     this.pokemon.traits.height = this.pokemonForm.get('height').value.trim();
     this.pokemon.traits.weight = +this.pokemonForm.get('weight').value;
+  }
 
-    if (this.pokemonForm.get('gender').value) {
-      const _gender = <any[]>this.pokemonForm.get('gender').value;
+  private manageGender(): void {
+    const gender = this.pokemonForm.get('gender').value;
 
-      if (!('gender' in this.pokemon)) {
-        this.pokemon.gender = { male: false, female: false };
-      }
-      _gender.forEach((val: string) => {
+    if (gender && gender.length) {
+      gender.forEach((val: string) => {
         this.pokemon['gender'][val.toLowerCase()] = true;
       });
       
     } else {
       delete this.pokemon.gender;
     }
+  }
 
-    this.pokemon.category = this.pokemonForm.get('category').value.trim();
-    this.pokemon.abilities = this.selectedAbilities;
-    this.pokemon.types = this.pokemonTypes;
-    this.pokemon.weaknesses = this.pokemonWeaknesses;
-
+  private manageEvolutions(): void {
     if (this.pokemonForm.get('evolutions').value) {
       this.pokemon.evolutions = 
       this.pokemonForm.get('evolutions').value.split(', ').map(val => +val);
@@ -120,7 +160,9 @@ export class PokemonFormComponent implements OnInit {
     } else {
       delete this.pokemon.evolutionOrder;
     }
+  }
 
+  private manageBaseStats(): void {
     this.pokemon.baseStats.hp = +this.pokemonForm.get('hp').value;
     this.pokemon.baseStats.attack = +this.pokemonForm.get('attack').value;
     this.pokemon.baseStats.defense = +this.pokemonForm.get('defense').value;
@@ -137,10 +179,5 @@ export class PokemonFormComponent implements OnInit {
     ele.select();
     document.execCommand('copy');
     document.body.removeChild(ele);
-  }
-
-  resetPokemon(): void {
-    this.pokemon.evolutions = [];
-    this.pokemon.evolutionOrder = null;
   }
 }
