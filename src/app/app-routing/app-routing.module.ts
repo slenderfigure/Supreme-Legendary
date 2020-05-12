@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Route } from '@angular/router';
 
-import { DashboardComponent } from '../components/dashboard/dashboard.component';
-import { NotFoundComponent } from '../components/not-found/not-found.component';
+import { DashboardComponent } from '../pokemon/dashboard/dashboard.component';
+import { NotFoundComponent } from '../pokemon/not-found/not-found.component';
 
 const route: Route[] = [
   { path: 'home', component: DashboardComponent },

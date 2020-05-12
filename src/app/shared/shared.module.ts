@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
-import { PokemonRoutingModule } from '../components/pokemon-routing.module';
+import { PokemonRoutingModule } from '../pokemon/pokemon-routing.module';
 
 import { RepeatPipe } from './repeat.pipe';
 import { SpinnerComponent } from './spinner/spinner.component';

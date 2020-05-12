@@ -4,7 +4,7 @@ import { ViewChild, ElementRef } from '@angular/core';
 import { Observable, of, from, fromEvent, Subscription } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { map, filter, tap, debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
-import { Pokemon } from '../pokemon';
+
 
 @Component({
   selector: 'app-not-found',

@@ -18,8 +18,8 @@
       "spDef": 120,
       "speed": 80
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/003_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/003_f2.png"
   },
   {
     "entryNumber": "006",
@@ -40,8 +40,8 @@
       "spDef": 85,
       "speed": 100
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/006_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/006_f2.png"
   },
   {
     "entryNumber": "006",
@@ -62,8 +62,8 @@
       "spDef": 115,
       "speed": 100
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f3.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006_f3.png"
+    "imageUrl": "assets/pokemon-imgs/full/006_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/006_f3.png"
   },
   {
     "entryNumber": "009",
@@ -84,8 +84,8 @@
       "spDef": 115,
       "speed": 100
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/009_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/009_f2.png"
   },
   {
     "entryNumber": "150",
@@ -161,8 +161,8 @@
       "Psychic",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/015_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/015_f2.png"
   },
   {
     "entryNumber": "018",
@@ -193,8 +193,8 @@
       "Ice",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/018_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/018_f2.png"
   }, 
   {
     "entryNumber": "019",
@@ -230,8 +230,8 @@
       "Bug",
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/019_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/019_f2.png"
   },
   {
     "entryNumber": "020",
@@ -267,8 +267,8 @@
       "Bug",
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/020_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/020_f2.png"
   },  
   {
     "entryNumber": "026",
@@ -304,8 +304,8 @@
       "Bug",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/026_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/026_f2.png"
   },
   {
     "entryNumber": "027",
@@ -340,8 +340,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/027_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/027_f2.png"
   },
   {
     "entryNumber": "028",
@@ -376,8 +376,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/028_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/028_f2.png"
   },
   {
     "entryNumber": "037",

@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError, fromEvent, of } from 'rxjs';
 import { map, filter, tap, catchError, delay } from 'rxjs/operators';
 
-import { Pokemon } from '../components/pokemon';
-import { CustomFormControls } from '../components/form-control';
+import { Pokemon } from '../pokemon/pokemon';
+import { CustomFormControls } from '../pokemon/form-control';
 
 
 @Injectable({providedIn: 'root'})
