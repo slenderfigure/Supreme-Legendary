@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { PokemonModule } from './pokemon/pokemon.module';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './pokemon/navbar/navbar.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
