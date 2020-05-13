@@ -412,8 +412,8 @@
       "Fighting",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/037_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/037_f2.png"
   },  
   {
     "entryNumber": "038",
@@ -449,8 +449,8 @@
       "Poison",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/038_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/038_f2.png"
   },
   {
     "entryNumber": "065",
@@ -518,8 +518,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/050_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/050_f2.png"
   },
   {
     "entryNumber": "051",
@@ -556,8 +556,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/051_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/051_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/051_f2.png"
   },     
   {
     "entryNumber": "052",
@@ -592,8 +592,8 @@
       "Bug",
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/052_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/052_f2.png"
   },
   {
     "entryNumber": "052",
@@ -628,8 +628,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052_f3.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052_f3.png"
+    "imageUrl": "assets/pokemon-imgs/full/052_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/052_f3.png"
   },
   {
     "entryNumber": "053",
@@ -664,8 +664,8 @@
       "Bug",
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/053_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/053_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/053_f2.png"
   },
   {
     "entryNumber": "074",

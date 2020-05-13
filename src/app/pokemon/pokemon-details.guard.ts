@@ -22,7 +22,7 @@ export class PokemonDetailsGuard implements CanActivate {
     return new Observable(observer => {
       const subscription = this.ps.getPokedex().subscribe(pokedex => {
         if (!pokedex.find(pokemon => pokemon.name.toLowerCase() == next.params.name)) {
-          this.router.navigate(['**']);
+          this.router.navigate(['/pokedex']);
           observer.next(false);
         } else {
           observer.next(true);

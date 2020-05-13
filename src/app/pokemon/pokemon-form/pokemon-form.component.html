@@ -17,11 +17,12 @@
     </label>
 
     <div *ngFor="let field of fields" class="form-group">
-      <label>{{ field.label }}</label>
+      <label [for]="field.key">{{ field.label }}</label>
 
       <div [ngSwitch]="field.controlType">
         <div *ngSwitchCase="'input'">
           <input 
+          [id]="field.key"
           [name]="field.key"
           [formControlName]="field.key" 
           [type]="field.type ? field.type : 'text'">
