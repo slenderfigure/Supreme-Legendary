@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Route } from '@angular/router';
 
-import { DashboardComponent } from '../pokemon/dashboard/dashboard.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
 import { NotFoundComponent } from '../pokemon/not-found/not-found.component';
+import { ReactiveFormComponent } from '../reactive-form/reactive-form.component';
 
 const route: Route[] = [
-  { path: 'home', component: DashboardComponent },
+  { path: 'home', component: ReactiveFormComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];

@@ -6,15 +6,19 @@ import { PokemonModule } from './pokemon/pokemon.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './pokemon/navbar/navbar.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ReactiveFormComponent
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     HttpClientModule,
     PokemonModule,
     AppRoutingModule
