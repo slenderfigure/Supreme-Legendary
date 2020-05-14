@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 import { PokemonService } from '../../services/pokemon.service';
 import { Pokemon } from '../pokemon';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'pokemon-list',
@@ -15,18 +16,7 @@ import { Pokemon } from '../pokemon';
 export class PokemonListComponent implements OnInit, AfterViewInit {
   private pokedex: Pokemon[];
   filteredPokedex: Pokemon[];
-  tableHeaders: string[] = [];
   loading: boolean = true;
-
-  private _pokedexFilter: string;
-  get pokedexFilter(): string {
-    return this._pokedexFilter;
-  }
-  set pokedexFilter(value: string) {
-    this._pokedexFilter = value;
-    this.filteredPokedex = this.pokedexFilter ? 
-      this.filterPokedex(this.pokedexFilter) : this.pokedex;
-  }
 
   activePage: number = 0;
   pokemonPerPage: number = 12;
@@ -36,17 +26,18 @@ export class PokemonListComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.loadPokedex(this.activePage, this.pokemonPerPage);    
-    this.tableHeaders = ['Entry Number', 'Image', 'Name', 'Type', 'Rating'];
+    this.ps.pokemonCount.subscribe(num => {
+      this.pageCount = Math.ceil(num / this.pokemonPerPage);
+    });
   }
 
   ngAfterViewInit(): void {
   }
 
-  private loadPokedex(start?: number, end?: number): void {
-    this.ps.getPokedex().subscribe(pokedex => {
-      this.pokedex = pokedex.sort((a, b) => +a.entryNumber - +b.entryNumber).slice(start, end);
+  private loadPokedex(start: number, end: number): void {
+    this.ps.getSlicedPokedex(start, end).subscribe(value => {
+      this.pokedex = value;
       this.filteredPokedex = this.pokedex;
-      this.pageCount = Math.ceil(pokedex.length / this.pokemonPerPage);
       this.loading = false;
     });
   }
@@ -54,18 +45,10 @@ export class PokemonListComponent implements OnInit, AfterViewInit {
   changePage(nextPage: number): void {
     this.loading = true; 
     this.activePage = nextPage;
-    this.pokedexFilter = '';
 
     this.loadPokedex(
       this.activePage * this.pokemonPerPage, 
       (this.activePage * this.pokemonPerPage) + this.pokemonPerPage
     );
   }
-
-  private filterPokedex(filterBy: string): Pokemon[] {
-    const myRegex = new RegExp(`${filterBy}`, 'i');
-
-    return this.pokedex.filter(pokemon => myRegex.test(pokemon.name));
-  }
-
 }

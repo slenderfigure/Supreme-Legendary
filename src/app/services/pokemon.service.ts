@@ -38,13 +38,28 @@ export class PokemonService {
   constructor(private http: HttpClient) { }
 
   getPokedex(): Observable<Pokemon[]> {
-    return this.http.get<any[]>(this.url).pipe(
+    return this.http.get<Pokemon[]>(this.url).pipe(
+      catchError(this.errorHandler)
+    );
+  }
+
+  get pokemonCount(): Observable<number> {
+    return this.http.get<Pokemon[]>(this.url).pipe(
+      map(pokedex => pokedex.length)
+    );
+  }
+
+  getSlicedPokedex(start: number, end: number): Observable<Pokemon[]> {
+    return this.http.get<Pokemon[]>(this.url).pipe(
+      map(pokedex => {
+        return pokedex.sort((a, b) => +a.entryNumber - +b.entryNumber).slice(start, end);
+      }),
       catchError(this.errorHandler)
     );
   }
 
   getAlternateForms(): Observable<Pokemon[]> {
-    return this.http.get<any[]>('../api/alternate-forms.json').pipe(
+    return this.http.get<Pokemon[]>('../api/alternate-forms.json').pipe(
       catchError(this.errorHandler)
     );
   }

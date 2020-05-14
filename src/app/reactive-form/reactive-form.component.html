@@ -1,4 +1,21 @@
-<div class="form-group">
-  <label for="name">Name</label>
-  <input id="name" type="text">
+<div *ngIf="originalPokedex.length" class="btn-wrapper">
+  <button 
+    (click)="onClick(index)"
+    *ngFor="let btn of originalPokedex; index as index">
+    {{ index + 1 }}
+  </button>
 </div>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input id="name" type="text" formControlName="name">
+
+    <div>
+      <span>... loading</span>
+    </div>
+  </div>
+  
+  <button>Submit</button>
+</form>
+

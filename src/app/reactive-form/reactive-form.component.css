@@ -1,7 +1,11 @@
+form {
+  width: 400px;
+  margin: 4rem auto;
+}
+
 .form-group {
   display: flex;
-  width: fit-content;
-  margin: 4rem auto;
+  width: 100%;
   align-items: center;
 }
 
@@ -13,4 +17,43 @@
   padding: 0.3rem 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  color: #eee;
+  border-radius: 4px;
+  background-color: #333;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  user-select: none;
+}
+
+.btn-wrapper button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.btn-wrapper button:not(:last-of-type) {
+  margin-right: 0.4rem;
+}
+
+.btn-wrapper button:hover {
+  background-color: #555;
 }
