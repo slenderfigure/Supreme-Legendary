@@ -15,6 +15,7 @@ import { map } from 'rxjs/operators';
 export class ReactiveFormComponent implements OnInit {
   originalPokedex: Pokemon[] = [];
   form: FormGroup;
+  matches: Pokemon[] = [];
 
   constructor(
     private ps: PokemonService,
@@ -24,22 +25,30 @@ export class ReactiveFormComponent implements OnInit {
   ngOnInit(): void {
     this.form = this.fb.group({
       name: [
-        'Adison',
+        '',
         [ Validators.required, Validators.pattern(/^[A-z]+$/) ],
         [ this.asyncValidator() ]
       ]
     });
 
     // this.filterType('fire', false).subscribe(val => console.log(val));
-
-    this.dynamicSlice(0, 10).subscribe(val => this.originalPokedex = val);
   }
 
-  onClick(index: number) {
-    const start = index * 4;
-    const end = start + 4;
-
-    this.dynamicSlice(start, end).subscribe(val => console.log(val));
+  get name(): AbstractControl {
+    return this.form.get('name');
+  }
+  
+  searchByName(name: string): void {
+    if (name) {
+      this.ps.getPokedex().subscribe(pokedex => {
+        this.matches = pokedex.filter(match => {
+          return match.name.toLowerCase()
+            .slice(0, name.length) == name.toLowerCase();
+        }).slice(0, 4);
+      });
+    } else {
+      this.matches = [];
+    }
   }
 
   filterType(type: string, dualType = true): Observable<Pokemon[]> {
@@ -54,12 +63,6 @@ export class ReactiveFormComponent implements OnInit {
           }
         });
       })
-    );
-  }
-
-  dynamicSlice(start: number, end: number): Observable<Pokemon[]> {
-    return this.ps.getPokedex().pipe(
-      map(pokedex => pokedex.slice(start, end))
     );
   }
 

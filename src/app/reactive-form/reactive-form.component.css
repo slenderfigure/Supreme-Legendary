@@ -1,19 +1,23 @@
 form {
-  width: 400px;
-  margin: 4rem auto;
+  width: 300px;
+  margin: 4rem auto 40rem;
 }
 
 .form-group {
   display: flex;
   width: 100%;
+  margin-bottom: 1rem;
+  justify-content: space-between;
   align-items: center;
 }
 
 .form-group label {
+  width: 15%;
   margin-right: 0.4rem;
 }
 
 .form-group input {
+  width: 85%;
   padding: 0.3rem 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -22,38 +26,69 @@ form {
 form button {
   display: block;
   width: 100%;
-  margin-top: 1rem;
   padding: 0.4rem 1rem;
   color: #eee;
   border-radius: 4px;
   background-color: #333;
 }
 
-.btn-wrapper {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  margin: auto;
+.drop-container {
+  position: relative;
+  width: 85%;
+}
+
+.drop-container input {
+  width: 100%;
+}
+
+.matches {
+  position: absolute;
+  width: 100%;
+  padding: 0.4rem 0;
+  border-radius: 3px;
+  background-color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
   user-select: none;
 }
 
-.btn-wrapper button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  color: #fff;
-  border-radius: 30px;
-  font-size: 0.75rem;
-  background-color: #333;
+.matches li {
+  width: 100%;
   transition: background-color 0.3s ease;
 }
 
-.btn-wrapper button:not(:last-of-type) {
-  margin-right: 0.4rem;
+.matches li a {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.85rem;
 }
 
-.btn-wrapper button:hover {
+.matches li a img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 2px;
+  background-color: rgb(212, 223, 238);
+}
+
+.matches .info {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.matches .info span {
+  margin-bottom: 0.6rem;
+  color: #fff;
+}
+
+.matches .info span:last-of-type {
+  color: #888;
+  font-weight: 600;
+}
+
+.matches li:hover {
   background-color: #555;
 }
