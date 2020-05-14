@@ -20,15 +20,13 @@ export class PokemonListComponent implements OnInit, AfterViewInit {
 
   activePage: number = 0;
   pokemonPerPage: number = 12;
-  pageCount: number = 0;
+  pageCount: Observable<number>;
 
   constructor(private ps: PokemonService) { }
 
   ngOnInit(): void {
-    this.loadPokedex(this.activePage, this.pokemonPerPage);    
-    this.ps.pokemonCount.subscribe(num => {
-      this.pageCount = Math.ceil(num / this.pokemonPerPage);
-    });
+    this.loadPokedex(this.activePage, this.pokemonPerPage); 
+    this.pageCount = this.ps.getPageCount(this.pokemonPerPage);  
   }
 
   ngAfterViewInit(): void {

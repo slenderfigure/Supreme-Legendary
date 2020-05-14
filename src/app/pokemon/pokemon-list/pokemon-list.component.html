@@ -3,7 +3,7 @@
 <div style="position: relative; top: 3rem">
   <pk-pagination
     [hidden]="loading"
-    [pageCount]="pageCount"
+    [pageCount]="pageCount | async"
     [activePage]="activePage"
     (changeNotify)="changePage($event)"></pk-pagination>
 </div>

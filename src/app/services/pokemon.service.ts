@@ -43,9 +43,11 @@ export class PokemonService {
     );
   }
 
-  get pokemonCount(): Observable<number> {
+  getPageCount(itemPerPage: number): Observable<number> {
     return this.http.get<Pokemon[]>(this.url).pipe(
-      map(pokedex => pokedex.length)
+      map(pokedex => {
+        return Math.ceil(pokedex.length / itemPerPage);
+      })
     );
   }
 
