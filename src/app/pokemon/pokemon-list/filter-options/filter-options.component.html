@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <label for="search">Search</label>
+  <div class="drop-container">
+    <input 
+    (input)="searchByName($event.target.value)"
+    type="text" 
+    name="search">
+
+    <ul *ngIf="matches.length" class="matches">
+      <li *ngFor="let match of matches">
+        <a [routerLink]="['/pokedex', match.name | lowercase]">
+          <img [src]="match.iconUrl" [alt]="match.name">
+          <div class="info">
+            <span>{{ match.name }}</span>
+            <span>#{{ match.entryNumber }}</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
