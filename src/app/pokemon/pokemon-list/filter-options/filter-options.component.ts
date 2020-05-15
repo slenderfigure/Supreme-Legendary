@@ -1,15 +1,13 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
 import { ViewChild, ViewChildren, QueryList, ElementRef } from '@angular/core';
-
-
-import { Observable } from 'rxjs';
-import { map, debounceTime, switchMap } from 'rxjs/operators';
+import { Router } from '@angular/router';
+import { Observable, fromEvent } from 'rxjs';
+import { map, filter, debounceTime, switchMap, distinctUntilChanged } from 'rxjs/operators';
 
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { Pokemon } from '../../pokemon';
-import { Router } from '@angular/router';
-import { FormControl } from '@angular/forms';
+
 
 @Component({
   selector: 'filter-options',
@@ -20,7 +18,7 @@ import { FormControl } from '@angular/forms';
   ]
 })
 export class FilterOptionsComponent implements OnInit, AfterViewInit {
-  searchControl: FormControl = new FormControl('');
+  @ViewChild('searchField') searchField: ElementRef<HTMLInputElement>;
   @ViewChildren('typeOptions') typeOptions: QueryList<ElementRef>;
   @Output() notifyFiltered: EventEmitter<Pokemon | Pokemon[]> = new EventEmitter();
   showAdvanced: boolean = false;
@@ -36,10 +34,11 @@ export class FilterOptionsComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.types$ = this.ps.types;
-    this.searchByName();
+    
   }
 
   ngAfterViewInit(): void {
+    this.onSearch();
   }
 
   onBlur(event: FocusEvent): void {
@@ -48,38 +47,31 @@ export class FilterOptionsComponent implements OnInit, AfterViewInit {
     }
   }
 
-  searchByName(): void {
-    this.searchControl.valueChanges.pipe(
-      map((val: string) => val.trim().toLowerCase()),
-      debounceTime(500),
-      switchMap(() => this.ps.getPokedex()),
-      map((matches: Pokemon[]) => {
-        return matches.filter(match => {
-          return match.name.toLowerCase()
-        });
+  onSearch(): void {
+    fromEvent(this.searchField.nativeElement, 'input').pipe(
+      map(e => e.target as HTMLInputElement),
+      map(input => input.value.trim().toLowerCase()),
+      debounceTime(50)
+    ).subscribe(value => {
+      const sub = this.ps.getPokedex().subscribe(pokedex => {
+        this.matches = pokedex.filter(match => {
+          return match.name.toLowerCase().slice(0, value.length) == value ||
+            match.entryNumber.toString().match(value);
+        }).slice(0, 5);
       })
-    ).subscribe(val => console.log(val));
 
-
-    // let _value = value.trim().toLowerCase();
-    
-    // if (_value) {
-    //   this.ps.getPokedex().subscribe(pokedex => {
-    //     this.matches = pokedex.filter(match => {
-    //       return match.name.toLowerCase().slice(0, _value.length) == _value ||
-    //         match.entryNumber.toString().match(_value);
-    //     }).slice(0, 5);
-    //   });
-    // } else {
-    //   this.resetDefaults();
-    // }
+      if (value.length < 2) {
+        this.resetDefaults();
+        sub.unsubscribe();
+      }
+    });
   }
 
   onKeyDown(e: KeyboardEvent): void {
-    if (!this.searchControl.value) { return; }
+    if (!this.searchField.nativeElement.value) { return; }
 
     const replaceInputValue = () => {
-      this.searchControl.setValue(this.matches[this.keyIndex].name);
+      this.searchField.nativeElement.value = this.matches[this.keyIndex].name;
     }
 
     switch (e.key) {

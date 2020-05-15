@@ -4,22 +4,21 @@
 
     <div class="drop-container">
       <input 
-        [formControl]="searchControl"
+        #searchField
         (keydown)="onKeyDown($event)"
         (blur)="onBlur($event)"
         type="text" 
-        name="search"
-        data-drop="true"
+        name="search"      
         spellcheck="false">
 
       <ul 
-        class="matches" data-drop="true"
+        class="matches"
         [class.view-matches]="matches.length">
         <li 
           *ngFor="let match of matches; index as index"
           class="match-item"
           [class.active]="index == keyIndex">
-          <a [routerLink]="['/pokedex', match.name | lowercase]" data-drop="true">
+          <a [routerLink]="['/pokedex', match.name | lowercase]">
             <img class="pokeball-icon" src="assets/img/icon2.png">
 
             <img class="pokemon-icon" [src]="match.iconUrl" [alt]="match.name">
