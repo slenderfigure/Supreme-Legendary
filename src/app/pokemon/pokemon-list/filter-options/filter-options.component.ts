@@ -3,12 +3,13 @@ import { Output, EventEmitter } from '@angular/core';
 import { ViewChild, ViewChildren, QueryList, ElementRef } from '@angular/core';
 
 
-import { Observable, fromEvent } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { map, debounceTime, switchMap } from 'rxjs/operators';
 
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { Pokemon } from '../../pokemon';
 import { Router } from '@angular/router';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'filter-options',
@@ -19,15 +20,14 @@ import { Router } from '@angular/router';
   ]
 })
 export class FilterOptionsComponent implements OnInit, AfterViewInit {
-  @ViewChild('searchField') searchField: ElementRef<HTMLInputElement>;
-  @ViewChild('matchDropdown') matchDropdown: ElementRef<HTMLElement>;
+  searchControl: FormControl = new FormControl('');
   @ViewChildren('typeOptions') typeOptions: QueryList<ElementRef>;
   @Output() notifyFiltered: EventEmitter<Pokemon | Pokemon[]> = new EventEmitter();
   showAdvanced: boolean = false;
   matches: Pokemon[] = [];
   keyIndex: number = -1;
   dualType: boolean = true;
-  types: Observable<string[]>;
+  types$: Observable<string[]>;
 
   constructor(
     private router: Router,
@@ -35,7 +35,8 @@ export class FilterOptionsComponent implements OnInit, AfterViewInit {
   ) { }
 
   ngOnInit(): void {
-    this.types = this.ps.types;
+    this.types$ = this.ps.types;
+    this.searchByName();
   }
 
   ngAfterViewInit(): void {
@@ -47,24 +48,38 @@ export class FilterOptionsComponent implements OnInit, AfterViewInit {
     }
   }
 
-  searchByName(value: string): void {
-    if (value) {
-      this.ps.getPokedex().subscribe(pokedex => {
-        this.matches = pokedex.filter(match => {
-          return match.name.toLowerCase().slice(0, value.length) == value.toLowerCase() ||
-            match.entryNumber.toString().match(value);
-        }).slice(0, 5);
-      });
-    } else {
-      this.resetDefaults();
-    }
+  searchByName(): void {
+    this.searchControl.valueChanges.pipe(
+      map((val: string) => val.trim().toLowerCase()),
+      debounceTime(500),
+      switchMap(() => this.ps.getPokedex()),
+      map((matches: Pokemon[]) => {
+        return matches.filter(match => {
+          return match.name.toLowerCase()
+        });
+      })
+    ).subscribe(val => console.log(val));
+
+
+    // let _value = value.trim().toLowerCase();
+    
+    // if (_value) {
+    //   this.ps.getPokedex().subscribe(pokedex => {
+    //     this.matches = pokedex.filter(match => {
+    //       return match.name.toLowerCase().slice(0, _value.length) == _value ||
+    //         match.entryNumber.toString().match(_value);
+    //     }).slice(0, 5);
+    //   });
+    // } else {
+    //   this.resetDefaults();
+    // }
   }
 
   onKeyDown(e: KeyboardEvent): void {
-    if (!this.searchField.nativeElement.value) { return; }
+    if (!this.searchControl.value) { return; }
 
     const replaceInputValue = () => {
-      this.searchField.nativeElement.value = this.matches[this.keyIndex].name;
+      this.searchControl.setValue(this.matches[this.keyIndex].name);
     }
 
     switch (e.key) {

@@ -14,7 +14,7 @@ const routes: Route[] = [
   },
   { 
     path: 'pokedex/:name', 
-    canActivate: [ PokemonDetailsGuard ],
+    // canActivate: [ PokemonDetailsGuard ],
     component: PokemonDetailsComponent
   },
   { path: 'add-new', component: PokemonFormComponent }

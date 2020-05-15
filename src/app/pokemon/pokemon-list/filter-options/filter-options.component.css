@@ -121,6 +121,7 @@ input:not([type="checkbox"]) {
   border-radius: 4px;
   background: 
   linear-gradient(45deg,rgba(89, 202, 255, 0.1), rgba(78, 76, 204, 0.2));
+  animation: reveal 0.3s ease;
 }
 
 .advanced-filters h3 {

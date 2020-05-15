@@ -4,7 +4,7 @@ import { FormControl, Validators, ValidationErrors, AbstractControl, AsyncValida
 import { PokemonService } from '../services/pokemon.service';
 import { Pokemon } from '../pokemon/pokemon';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, delay, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 
 @Component({
@@ -31,41 +31,19 @@ export class ReactiveFormComponent implements OnInit {
       ]
     });
 
-    // this.filterType('fire', false).subscribe(val => console.log(val));
+    this.name.valueChanges.pipe(
+      map((val: string) => {
+        return val.slice(0, 1).toUpperCase() + val.slice(1).toLowerCase();
+      }),
+      debounceTime(1000),
+      distinctUntilChanged()
+    ).subscribe(val => console.log(val));
   }
 
   get name(): AbstractControl {
     return this.form.get('name');
   }
   
-  searchByName(name: string): void {
-    if (name) {
-      this.ps.getPokedex().subscribe(pokedex => {
-        this.matches = pokedex.filter(match => {
-          return match.name.toLowerCase()
-            .slice(0, name.length) == name.toLowerCase();
-        }).slice(0, 4);
-      });
-    } else {
-      this.matches = [];
-    }
-  }
-
-  filterType(type: string, dualType = true): Observable<Pokemon[]> {
-    return this.ps.getPokedex().pipe(
-      map(pokedex => {
-        return pokedex.filter(pokemon => {
-          if (!dualType) {
-            return pokemon.types.length == 1 &&
-            pokemon.types[0].toLowerCase() == type.toLowerCase();
-          } else {
-            return pokemon.types.some(cur => cur.toLowerCase() == type.toLowerCase());
-          }
-        });
-      })
-    );
-  }
-
   onSubmit(): void {
     console.log(this.form.get('name').errors);
   }

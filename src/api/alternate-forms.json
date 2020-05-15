@@ -1064,8 +1064,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/208_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/208_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/208_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/208_f2.png"
   },  
   {
     "entryNumber": "103",
@@ -2190,8 +2190,8 @@
       "spDef": 100,
       "speed": 115
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/384_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/384_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/384_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/384_f2.png"
   },
   {
     "entryNumber": "386",
@@ -2204,8 +2204,8 @@
       "spDef": 20,
       "speed": 150
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/386_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/386_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/386_f2.png"
   },
   {
     "entryNumber": "386",
@@ -2218,8 +2218,8 @@
       "spDef": 160,
       "speed": 90
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/386_f3.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f3.png"
+    "imageUrl": "assets/pokemon-imgs/full/386_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/386_f3.png"
   },
   {
     "entryNumber": "386",
@@ -2232,8 +2232,8 @@
       "spDef": 90,
       "speed": 180
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/386_f4.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f4.png"
+    "imageUrl": "assets/pokemon-imgs/full/386_f4.png",
+    "iconUrl": "assets/pokemon-imgs/detail/386_f4.png"
   },
   {
     "entryNumber": "412",

@@ -4,8 +4,7 @@
 
     <div class="drop-container">
       <input 
-        #searchField
-        (input)="searchByName($event.target.value)"
+        [formControl]="searchControl"
         (keydown)="onKeyDown($event)"
         (blur)="onBlur($event)"
         type="text" 
@@ -14,7 +13,6 @@
         spellcheck="false">
 
       <ul 
-        #matchDropdown
         class="matches" data-drop="true"
         [class.view-matches]="matches.length">
         <li 
@@ -61,7 +59,7 @@
       <span class="dual-type">Dual Type</span>
     </label>
 
-    <label *ngFor="let type of types | async" class="group-checkbox">
+    <label *ngFor="let type of types$ | async" class="group-checkbox">
       <input 
         #typeOptions
         [value]="type" 
