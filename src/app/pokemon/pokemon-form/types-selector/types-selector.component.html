@@ -12,7 +12,7 @@
   </div>
   
   <div class="checkbox-wrapper">
-    <label *ngFor="let type of types" class="column">
+    <label *ngFor="let type of types | async" class="column">
       <input 
         (change)="onTypeSelection($event.target)" 
         type="checkbox"
@@ -43,7 +43,7 @@
   </div>
 
   <div class="checkbox-wrapper">
-    <label *ngFor="let type of types" class="column">
+    <label *ngFor="let type of types | async" class="column">
       <input 
         (change)="onWeaknessSelection($event.target)"
         type="checkbox"

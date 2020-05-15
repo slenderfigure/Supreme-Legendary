@@ -11,8 +11,8 @@ import { CustomFormControls } from '../pokemon/form-control';
 export class PokemonService {
   private url = '../api/pokedex.json';
 
-  get types(): string[] {
-    return [
+  get types(): Observable<string[]> {
+    return of([
       'Normal',
       'Fire',
       'Water',
@@ -31,7 +31,7 @@ export class PokemonService {
       'Dark',
       'Steel',
       'Fairy'
-    ];
+    ]);
   }
 
   

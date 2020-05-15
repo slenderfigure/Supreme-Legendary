@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
+import { Observable } from 'rxjs';
+
 import { PokemonService } from 'src/app/services/pokemon.service';
+
 
 @Component({
   selector: 'types-selector',
@@ -13,7 +16,7 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 export class TypesSelectorComponent implements OnInit {
   @Output() notifyTypes: EventEmitter<any[]> = new EventEmitter();
   @Output() notifyWeaknesses: EventEmitter<any[]> = new EventEmitter();
-  types: string[];
+  types: Observable<string[]>;
   pokemonTypes: any = [];
   pokemonWeaknesses: any = [];
 

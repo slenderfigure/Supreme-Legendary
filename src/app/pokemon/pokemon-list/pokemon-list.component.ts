@@ -49,4 +49,12 @@ export class PokemonListComponent implements OnInit, AfterViewInit {
       (this.activePage * this.pokemonPerPage) + this.pokemonPerPage
     );
   }
+
+  onFilter(filtered: Pokemon[]) {
+    if (filtered.length) {
+      this.filteredPokedex = filtered;
+    } else {
+      this.filteredPokedex = this.pokedex;
+    }
+  }
 }

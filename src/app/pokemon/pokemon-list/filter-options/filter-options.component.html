@@ -1,21 +1,76 @@
 <div class="wrapper">
-  <label for="search">Search</label>
-  <div class="drop-container">
-    <input 
-    (input)="searchByName($event.target.value)"
-    type="text" 
-    name="search">
+  <div class="field-group">
+    <label for="search" class="label">Search by name or number</label>
 
-    <ul *ngIf="matches.length" class="matches">
-      <li *ngFor="let match of matches">
-        <a [routerLink]="['/pokedex', match.name | lowercase]">
-          <img [src]="match.iconUrl" [alt]="match.name">
-          <div class="info">
-            <span>{{ match.name }}</span>
-            <span>#{{ match.entryNumber }}</span>
-          </div>
-        </a>
-      </li>
-    </ul>
+    <div class="drop-container">
+      <input 
+        #searchField
+        (input)="searchByName($event.target.value)"
+        (keydown)="onKeyDown($event)"
+        (blur)="onBlur($event)"
+        type="text" 
+        name="search"
+        data-drop="true"
+        spellcheck="false">
+
+      <ul 
+        #matchDropdown
+        class="matches" data-drop="true"
+        [class.view-matches]="matches.length">
+        <li 
+          *ngFor="let match of matches; index as index"
+          class="match-item"
+          [class.active]="index == keyIndex">
+          <a [routerLink]="['/pokedex', match.name | lowercase]" data-drop="true">
+            <img class="pokeball-icon" src="assets/img/icon2.png">
+
+            <img class="pokemon-icon" [src]="match.iconUrl" [alt]="match.name">
+            <div class="info">
+              <span>{{ match.name }}</span>
+              <span>#{{ match.entryNumber }}</span>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </div>
   </div>
+
+  <button 
+    (click)="showAdvanced = !showAdvanced"
+    class="advanced-filters-btn">
+    
+    <div *ngIf="!showAdvanced">
+      <span>Show Advanced Filters</span>
+      <i class="fa fa-angle-down"></i>
+    </div>
+
+    <div *ngIf="showAdvanced">
+      <span>Hide Advanced Filters</span>
+      <i class="fa fa-angle-up"></i>
+    </div>
+  </button>
+
+  <div 
+    *ngIf="showAdvanced"
+    class="field-group advanced-filters">
+    <h3>Filter by type</h3>
+
+    <label class="group-checkbox">
+      <input (input)="dualType = !dualType" checked type="checkbox">
+      <span class="dual-type">Dual Type</span>
+    </label>
+
+    <label *ngFor="let type of types | async" class="group-checkbox">
+      <input 
+        #typeOptions
+        [value]="type" 
+        type="checkbox">
+      <span class="pk-type pk-type-2 pk-type-{{ type | lowercase }}">{{ type }}</span>
+    </label>
+
+    <button (click)="filterType()" type="button">Apply filters</button>
+    <button (click)="resetTypeFilter()" type="button">Reset</button>
+  </div>
+
 </div>

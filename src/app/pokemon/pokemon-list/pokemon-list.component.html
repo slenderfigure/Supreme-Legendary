@@ -1,17 +1,20 @@
 <div class="design"></div>
 
-<div style="position: relative; top: 3rem">
-  <filter-options></filter-options>
-
-  <pk-pagination
-    [hidden]="loading"
-    [pageCount]="pageCount | async"
-    [activePage]="activePage"
-    (changeNotify)="changePage($event)"></pk-pagination>
-</div>
-
 <div *ngIf="!loading">
   <div class="wrapper">
+    <div class="top-content">
+      <h2>Pokédex</h2>
+
+      <filter-options
+        (notifyFiltered)="onFilter($event)"></filter-options>
+
+      <pk-pagination
+        [hidden]="loading"
+        [pageCount]="pageCount | async"
+        [activePage]="activePage"
+        (changeNotify)="changePage($event)"></pk-pagination>
+    </div>
+
     <div class="preview-wrapper">
       <div class="flex-container">
         <a 
