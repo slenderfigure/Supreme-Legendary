@@ -59,7 +59,7 @@ export class EvolutionsComponent implements OnInit, OnDestroy, OnChanges {
       this.ps.getPokedex().subscribe((pokedex: Pokemon[]) => {
         this.evolutions = pokedex.filter(pokemon => {
           return this.pokemon[this.lineType].indexOf(+pokemon.entryNumber) > -1;
-        }).sort((a, b) => a.evolutionOrder - b.evolutionOrder);
+        }).sort((a, b) => +a.entryNumber - +b.entryNumber);
       });
     }
   }

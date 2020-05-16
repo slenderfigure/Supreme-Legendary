@@ -4712,7 +4712,7 @@
     "abilities": ["Run Away", " Adaptability"],
     "types": ["Normal"],
     "weaknesses": ["Fighting"],
-    "alternateEvolutions": [134, 135, 136, 197, 471, 470, 196, 700],
+    "alternateEvolutions": [134, 135, 136, 196, 197, 471, 470, 700],
     "evolutionOrder": 1,
     "baseStats": {
       "hp": 55,
