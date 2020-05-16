@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Route } from '@angular/router';
 
-import { DashboardComponent } from '../dashboard/dashboard.component';
-import { NotFoundComponent } from '../not-found/not-found.component';
-import { ReactiveFormComponent } from '../reactive-form/reactive-form.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 const route: Route[] = [
   // { path: 'home', component: DashboardComponent },
