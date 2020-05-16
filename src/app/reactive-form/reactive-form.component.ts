@@ -5,6 +5,7 @@ import { PokemonService } from '../services/pokemon.service';
 import { Pokemon } from '../pokemon/pokemon';
 import { Observable } from 'rxjs';
 import { map, delay, debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { browser } from 'protractor';
 
 
 @Component({
