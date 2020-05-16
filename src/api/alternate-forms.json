@@ -480,8 +480,8 @@
       "Dark",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/065_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/065_f2.png"
   },  
   {
     "entryNumber": "050",
@@ -702,8 +702,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/074_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/074_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/074_f2.png"
   },
   {
     "entryNumber": "075",
@@ -740,8 +740,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/075_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/075_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/075_f2.png"
   },
   {
     "entryNumber": "076",
@@ -778,8 +778,8 @@
       "Fighting",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/076_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/076_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/076_f2.png"
   },
   {
     "entryNumber": "077",
@@ -814,8 +814,8 @@
       "Dark",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/077_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/077_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/077_f2.png"
   },      
   {
     "entryNumber": "078",
@@ -851,8 +851,8 @@
       "Steel",
       "Poison"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/078_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/078_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/078_f2.png"
   },  
   {
     "entryNumber": "080",
@@ -889,8 +889,8 @@
       "Electric",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/080_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/080_f2.png"
   },  
   {
     "entryNumber": "083",
@@ -924,8 +924,8 @@
       "Flying",
       "Fairy"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/083_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/083_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/083_f2.png"
   },
   {
     "entryNumber": "088",
@@ -959,8 +959,8 @@
     "weaknesses": [
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/088_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/088_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/088_f2.png"
   },
   {
     "entryNumber": "089",
@@ -994,8 +994,8 @@
     "weaknesses": [
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/089_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/089_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/089_f2.png"
   },
   {
     "entryNumber": "094",
@@ -1031,8 +1031,8 @@
       "Psychic",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/094_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/094_f2.png"
   },
   {
     "entryNumber": "208",
@@ -1103,8 +1103,8 @@
       "Fairy",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/103_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/103_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/103_f2.png"
   },     
   {
     "entryNumber": "105",
@@ -1142,8 +1142,8 @@
       "Dark",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/105_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/105_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/105_f2.png"
   },
   {
     "entryNumber": "110",
@@ -1179,8 +1179,8 @@
       "Psychic",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/110_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/110_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/110_f2.png"
   },  
   {
     "entryNumber": "115",
@@ -1208,8 +1208,8 @@
     "weaknesses": [
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/115_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/115_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/115_f2.png"
   },
   {
     "entryNumber": "122",
@@ -1248,8 +1248,8 @@
       "Rock",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/122_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/122_f2.png"
   },
   {
     "entryNumber": "212",
@@ -1278,8 +1278,8 @@
     "weaknesses": [
       "Fire"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/212_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/212_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/212_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/212_f2.png"
   },
   {
     "entryNumber": "127",
@@ -1312,8 +1312,8 @@
       "Ice",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/127_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/127_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/127_f2.png"
   },  
   {
     "entryNumber": "130",
@@ -1346,8 +1346,8 @@
       "Fighting",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/130_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/130_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/130_f2.png"
   },
   {
     "entryNumber": "142",
