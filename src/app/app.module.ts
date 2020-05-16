@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { FormControlsComponent } from './reactive-form/form-controls/form-controls.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    FormControlsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,22 +1,29 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input id="name" type="text" formControlName="name">
+  <div 
+    *ngFor="let field of fields$ | async"
+    class="form-group">
+    <label [for]="field.key">{{ field.label }}</label>
 
-    <div 
-      *ngIf="(name.touched || name.dirty) && name.pending">
-      <span>... loading</span>
+    <div [ngSwitch]="field.controlType">
+      <div *ngSwitchCase="'input'">
+        <input [id]="field.key" [formControlName]="field.key" [type]="field.inputType">
+      </div>
+
+      <div *ngSwitchCase="'dropdown'">
+        <select [id]="field.key" [formControlName]="field.key">
+          <option 
+            *ngFor="let option of field.selectOptions"
+            [value]="option.value">
+            {{ option.key }}
+          </option>
+        </select>
+      </div>
+
+      <div *ngSwitchCase="'textarea'">
+        <textarea [id]="field.key" [formControlName]="field.key" rows="4"></textarea>
+      </div>
     </div>
   </div>
 
-  <div 
-    *ngIf="name.dirty && name?.errors?.exists"
-    class="feedback">
-    <span>This pokemon exists already</span>
-  </div>
-  
   <button>Submit</button>
-  
-  <a href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png" 
-  download="061.png">Download Image</a>
 </form>

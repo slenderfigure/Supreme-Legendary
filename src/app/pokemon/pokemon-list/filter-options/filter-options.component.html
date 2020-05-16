@@ -49,7 +49,7 @@
   </button>
 
   <div 
-    *ngIf="showAdvanced"
+    [style.display]="!showAdvanced ? 'none' : 'flex'"
     class="field-group advanced-filters">
     <h3>Filter by type</h3>
 
