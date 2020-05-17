@@ -50,7 +50,7 @@ export class PokemonFormComponent implements OnInit {
   pokemonTypes: any = [];
   pokemonWeaknesses: any = [];
   imgPreview: string;
-  externalImageUrl: string = 'https://assets.pokemon.com/assets/cms2/img/pokedex/';
+  imgSRC: string = 'assets/pokemon-imgs/';
 
 
   constructor(private ps: PokemonService) { }
@@ -67,8 +67,8 @@ export class PokemonFormComponent implements OnInit {
       this.pokemonForm.get('entryNumber').valueChanges.subscribe(val => {
         if (val) {
           this.imgPreview = 
-          !this.isAlternate ? `${this.externalImageUrl}detail/${val}.png` :
-          `${this.externalImageUrl}detail/${val}_f2.png`;
+          !this.isAlternate ? `${this.imgSRC}detail/${val}.png` :
+          `${this.imgSRC}detail/${val}_f2.png`;
         }
       });
     }, 500);
@@ -89,7 +89,6 @@ export class PokemonFormComponent implements OnInit {
 
   sanitaziePokemonData(): void {
     this.resetPokemon();
-    this.managePokemonImage();
     this.manageName();
     this.pokemon.entryNumber = this.pokemonForm.get('entryNumber').value.trim();
     this.manageBasicInformation();
@@ -100,6 +99,7 @@ export class PokemonFormComponent implements OnInit {
     this.pokemon.weaknesses = this.pokemonWeaknesses;
     this.manageEvolutions();
     this.manageBaseStats();
+    this.managePokemonImage();
   }
 
   private resetPokemon(): void {
@@ -108,8 +108,8 @@ export class PokemonFormComponent implements OnInit {
 
   private managePokemonImage(): void {
     this.pokemon.imageUrl = 
-      !this.isAlternate ? `${this.externalImageUrl}full/${this.pokemon.entryNumber}.png` :
-      `${this.externalImageUrl}full/${this.pokemon.entryNumber}_f2.png`;
+      !this.isAlternate ? `${this.imgSRC}full/${this.pokemon.entryNumber}.png` :
+      `${this.imgSRC}full/${this.pokemon.entryNumber}_f2.png`;
 
     this.pokemon.iconUrl = this.imgPreview;
   }
