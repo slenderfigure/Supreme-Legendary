@@ -1,6 +1,7 @@
 .stats-section {
   width: 100%;
   padding-top: 3rem;
+  border-top: 1px solid rgba(57, 84, 122, 0.1);
   animation: slideRight 0.5s ease;
 }
 
@@ -88,4 +89,15 @@
 
 .bar-very-high {
   background-color: #00c2b8;
+}
+
+
+@media (max-width: 700px) { 
+  .wrapper {
+    padding: 0;
+  }
+
+  .stats {
+    width: 50%;;
+  }
 }

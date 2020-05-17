@@ -27,7 +27,7 @@
 .card-wrapper {
   width: 100%;
   min-height: 500px;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: #fff;
 }
 
@@ -215,4 +215,34 @@
 
 .explore-button:hover span {
   color: #fff;
+}
+
+@media (max-width: 700px) {
+  .pokemon-details-container {
+    padding: 3rem 0;
+    top: 0;
+    background-color: #fff;
+  }
+  
+  .pokemon-info span{
+    font-size: 1.7rem !important;
+  }
+
+  .card {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .form-switcher-2 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 0.5rem;
+  }
+
+  .description {
+    margin-top: 2rem;
+  }
 }

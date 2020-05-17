@@ -35,7 +35,7 @@
 .column-3 .image-container {
   max-width: 160px;
   max-height: 160px;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 160px;
   background: 
   linear-gradient(45deg,rgba(89, 202, 255, 0.4), rgba(78, 76, 204, 0.2));
@@ -90,9 +90,42 @@
 
 .column-3 .fas {
   position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  top: 32%;
+  right: -0.5rem;
+  transform: translateY(-32%);
   color: rgba(57, 84, 122, 0.6);
-  font-size: 2rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 700px) { 
+  .evolutions {
+    flex-direction: column;
+  }
+  
+  .column-3 {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+
+  .column-3 .fas {
+    position: relative;
+    top: unset;
+    right: 0;
+    bottom: -1rem;
+    transform: none;
+    transform: rotate(90deg);
+  }
+
+  .column-xl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column-xl-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
 }

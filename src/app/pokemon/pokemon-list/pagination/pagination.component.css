@@ -1,8 +1,8 @@
 .wrapper {
   display: flex;
   align-items: center;
-  width: fit-content;
-  margin: auto;  
+  justify-content: center;
+  width: 100%;
 }
 
 .wrapper button {
@@ -18,7 +18,6 @@
   background-color: #fff;
   transition: background-color 0.3s ease, color 0.3s ease;
   outline: none;
-  
   cursor: pointer;
   user-select: none;
 }
@@ -74,4 +73,9 @@
   background: rgba(54, 190, 253, 0.69)
   linear-gradient(135deg,rgba(54, 190 , 253, 0.4) 1%,rgba(100, 97, 246, 0.4) 100%);
   animation: reveal 0.6s ease;
+}
+
+@media (max-wdith: 700px) {
+  
+  
 }

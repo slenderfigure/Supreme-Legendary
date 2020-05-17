@@ -14166,5 +14166,237 @@
     },
     "imageUrl": "assets/pokemon-imgs/full/495.png",
     "iconUrl": "assets/pokemon-imgs/detail/495.png"
+  },
+  {
+    "entryNumber": "496",
+    "name": "Servine",
+    "description": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 35.3
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Grass Snake",
+    "abilities": ["Overgrow"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "evolutions": [495, 496, 497],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "spAtk": 60,
+      "spDef": 75,
+      "speed": 83
+    },
+    "imageUrl": "assets/pokemon-imgs/full/496.png",
+    "iconUrl": "assets/pokemon-imgs/detail/496.png"
+  },
+  {
+    "entryNumber": "497",
+    "name": "Serperior",
+    "description": "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes.",
+    "traits": {
+      "height": "10' 10\"",
+      "weight": 138.9
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Regal",
+    "abilities": ["Overgrow"],
+    "types": ["Grass"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+    "evolutions": [495, 496, 497],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 95,
+      "spAtk": 75,
+      "spDef": 95,
+      "speed": 113
+    },
+    "imageUrl": "assets/pokemon-imgs/full/497.png",
+    "iconUrl": "assets/pokemon-imgs/detail/497.png"
+  },
+  {
+    "entryNumber": "498",
+    "name": "Tepig",
+    "description": "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 21.8
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Fire Pig",
+    "abilities": ["Blaze"],
+    "types": ["Fire"],
+    "weaknesses": ["Water", "Ground", "Rock"],
+    "evolutions": [498, 499, 500],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 65,
+      "attack": 63,
+      "defense": 45,
+      "spAtk": 45,
+      "spDef": 45,
+      "speed": 45
+    },
+    "imageUrl": "assets/pokemon-imgs/full/498.png",
+    "iconUrl": "assets/pokemon-imgs/detail/498.png"
+  },
+  {
+    "entryNumber": "499",
+    "name": "Pignite",
+    "description": "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 122.4
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Fire Pig",
+    "abilities": ["Blaze"],
+    "types": ["Fire", "Fighting"],
+    "weaknesses": ["Water", "Psychic", "Flying", "Ground"],
+    "evolutions": [498, 499, 500],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 90,
+      "attack": 93,
+      "defense": 55,
+      "spAtk": 70,
+      "spDef": 55,
+      "speed": 55
+    },
+    "imageUrl": "assets/pokemon-imgs/full/499.png",
+    "iconUrl": "assets/pokemon-imgs/detail/499.png"
+  },
+  {
+    "entryNumber": "500",
+    "name": "Emboar",
+    "description": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+    "traits": {
+      "height": "5' 03\"",
+      "weight": 330.7
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Mega Fire Pig",
+    "abilities": ["Blaze"],
+    "types": ["Fire", "Fighting"],
+    "weaknesses": ["Water", "Psychic", "Flying", "Ground"],
+    "evolutions": [498, 499, 500],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 110,
+      "attack": 123,
+      "defense": 65,
+      "spAtk": 100,
+      "spDef": 65,
+      "speed": 65
+    },
+    "imageUrl": "assets/pokemon-imgs/full/500.png",
+    "iconUrl": "assets/pokemon-imgs/detail/500.png"
+  },
+  {
+    "entryNumber": "501",
+    "name": "Oshawott",
+    "description": "The scalchop on its stomach isn't just used for battle—it can be used to break open hard berries as well.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 13
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Sea Otter",
+    "abilities": ["Torrent"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [501, 502, 503],
+    "evolutionOrder": 1,
+    "baseStats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 45,
+      "spAtk": 63,
+      "spDef": 45,
+      "speed": 45
+    },
+    "imageUrl": "assets/pokemon-imgs/full/501.png",
+    "iconUrl": "assets/pokemon-imgs/detail/501.png"
+  },
+  {
+    "entryNumber": "502",
+    "name": "Dewott",
+    "description": "Strict training is how it learns its flowing double-scalchop technique.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 54
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Discipline",
+    "abilities": ["Torrent"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [501, 502, 503],
+    "evolutionOrder": 2,
+    "baseStats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 60,
+      "spAtk": 83,
+      "spDef": 60,
+      "speed": 60
+    },
+    "imageUrl": "assets/pokemon-imgs/full/502.png",
+    "iconUrl": "assets/pokemon-imgs/detail/502.png"
+  },
+  {
+    "entryNumber": "503",
+    "name": "Samurott",
+    "description": "In the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.",
+    "traits": {
+      "height": "4' 11\"",
+      "weight": 208.6
+    },
+    "gender": {
+      "female": true,
+      "male": true
+    },
+    "category": "Formidable",
+    "abilities": ["Torrent"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "evolutions": [501, 502, 503],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 95,
+      "attack": 100,
+      "defense": 85,
+      "spAtk": 108,
+      "spDef": 70,
+      "speed": 70
+    },
+    "imageUrl": "assets/pokemon-imgs/full/503.png",
+    "iconUrl": "assets/pokemon-imgs/detail/503.png"
   }
 ]

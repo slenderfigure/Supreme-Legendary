@@ -10,7 +10,7 @@
 .top-content {
   position: relative; 
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .top-content h2 {
@@ -22,15 +22,16 @@
 .preview-wrapper {
   width: 100%;
   height: auto;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   overflow: hidden;
   z-index: 1;
 }
 
 .flex-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  max-width: calc((210px * 4) + (2rem * 4));
+  width: 100%;
   margin: auto;
 }
 
@@ -99,4 +100,14 @@
 
 .content span:last-of-type {
   font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .preview {
+    width: 260px;
+  }
+
+  .preview img {
+    width: 100%;
+  }
 }
