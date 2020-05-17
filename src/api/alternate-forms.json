@@ -107,8 +107,8 @@
       "spDef": 100,
       "speed": 130
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/150_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/150_f2.png"
   },
   {
     "entryNumber": "150",
@@ -129,8 +129,8 @@
       "spDef": 120,
       "speed": 140
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150_f3.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150_f3.png"
+    "imageUrl": "assets/pokemon-imgs/full/150_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/150_f3.png"
   },
   {
     "entryNumber": "015",
@@ -1380,8 +1380,8 @@
       "Ice",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/142_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/142_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/142_f2.png"
   },
   {
     "entryNumber": "254",
@@ -1415,8 +1415,8 @@
       "Fairy",
       "Bug"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/254_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/254_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/254_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/254_f2.png"
   },
   {
     "entryNumber": "257",
@@ -1448,8 +1448,8 @@
       "Flying",
       "Ground"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/257_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/257_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/257_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/257_f2.png"
   },  
   {
     "entryNumber": "260",
@@ -1478,8 +1478,8 @@
     "weaknesses": [
       "Grass"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/260_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/260_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/260_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/260_f2.png"
   },
   {
     "entryNumber": "263",
@@ -1515,8 +1515,8 @@
       "Bug",
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/263_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/263_f2.png",
+    "imageUrl": "assets/pokemon-imgs/full/263_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/263_f2.png",
     "evolutions": [
       263,
       264,
@@ -1558,8 +1558,8 @@
       "Bug",
       "Fighting"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/264_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/264_f2.png",
+    "imageUrl": "assets/pokemon-imgs/full/264_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/264_f2.png",
     "evolutions": [
       263,
       264,
@@ -1597,8 +1597,8 @@
       "Flying",
       "Fairy"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/214_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/214_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/214_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/214_f2.png"
   },
   {
     "entryNumber": "222",
@@ -1636,8 +1636,8 @@
       864
     ],
     "evolutionOrder": 1,
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/222_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/222_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/222_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/222_f2.png"
   },
   {
     "entryNumber": "229",
@@ -1669,8 +1669,8 @@
       "Fighting",
       "Rock"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/229_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/229_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/229_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/229_f2.png"
   },  
   {
     "entryNumber": "181",
@@ -1702,8 +1702,8 @@
       "Ice",
       "Dragon"
     ],
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/181_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/181_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/181_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/181_f2.png"
   },  
   {
     "entryNumber": "282",
@@ -1919,7 +1919,7 @@
   },
   {
     "entryNumber": "323",
-    "name": "Camerupt",
+    "name": "Mega Camerupt",
     "description": "Camerupt has a volcano inside its body. Magma of 18,000 degrees Fahrenheit courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
     "traits": {
       "height": "8' 02\"",
@@ -2350,8 +2350,8 @@
       "spDef": 120,
       "speed": 71
     },
-    "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248_f2.png",
-    "iconUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/248_f2.png"
+    "imageUrl": "assets/pokemon-imgs/full/248_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/248_f2.png"
   },
   {
     "entryNumber": "422",
