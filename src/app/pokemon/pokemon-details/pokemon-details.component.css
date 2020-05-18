@@ -2,7 +2,6 @@
   position: relative; 
   top: 5rem;
   max-width: 1000px;  
-  min-height: 100vh;
   margin: 0 auto 5rem;
   animation: reveal 0.5s ease;
 }
