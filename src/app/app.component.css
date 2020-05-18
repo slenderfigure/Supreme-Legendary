@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+@keyframes shiftRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(220px); }
+}
+
+@keyframes shiftLeft {
+  from { transform: translateX(220px); }
+  to { transform: translateX(0); }
+}
+
+@keyframes reveal {
+  from { visibility: hidden; opacity: 0; }
+  to { visibility: visible; opacity: 1; }
+}
+
+.slidable {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: filter 0.4s ease;
+  z-index: 1;
+}
+
+.show-menu {
+  filter: brightness(70%);
+  animation: shiftRight 0.3s ease forwards;
+}
+
+.hide-menu {
+  filter: none;
+  animation: shiftLeft 0.2s ease forwards;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100%;
+  padding: 3rem 2rem;
+  background: linear-gradient(45deg, #7877e4, #39547a);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.fixed ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.fixed ul li {
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.fixed ul li a {
+  color: #fff;
+}
+
+.fixed ul li a .fa-github {
+  color: #fff;
+}
+
+.fixed ul li a span {
+  margin-left: 0.4rem;
+  color: #fff;
+}

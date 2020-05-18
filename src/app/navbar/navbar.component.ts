@@ -1,26 +1,22 @@
 import { Component, AfterViewInit } from '@angular/core';
+import { Input, Output, EventEmitter } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
 
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { NavbarLink } from '../navbar-link';
 
-interface NavbarLink { label: string, route: string; }
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements AfterViewInit {
-  @ViewChild('header') header: ElementRef<HTMLElement>; 
-
-  navbarLinks: NavbarLink[] = [
-    { label: 'Home', route: '/home' },
-    { label: 'Pokédex', route: '/pokedex' },
-    { label: 'Add Pokemon', route: '/add-new' },
-    { label: 'Video Games', route: '/pokemon-video-games' },
-    { label: 'News', route: '/pokemon-news' }
-  ];
+  @ViewChild('header') header: ElementRef<HTMLElement>;  
+  @Input('links') navbarLinks: NavbarLink[] = [];
+  @Output() notifyChange: EventEmitter<boolean> = new EventEmitter();
+  showMenu: boolean = false;
   
   constructor(private router: Router) { }
 
@@ -48,5 +44,9 @@ export class NavbarComponent implements AfterViewInit {
     else if (id > 1 && url == '/home') {
       header.className = 'expand';
     }
+  }
+
+  onMenuBtnClick(): void {
+    this.notifyChange.emit(this.showMenu = !this.showMenu);
   }
 }

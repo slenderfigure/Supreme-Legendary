@@ -1,3 +1,26 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
+<div class="container">
+  <div #slidable class="slidable">
+    <navbar
+      [links]="links"></navbar>
+    <router-outlet></router-outlet>
+  </div>
 
+  <div class="fixed">
+    <ul>
+      <li *ngFor="let link of links">
+        <a
+          [routerLink]="[link.route]" 
+          (click)="resetMenuState()"
+          routerLinkActive="active-link">{{ link.label }}</a>
+        <div class="indicator"></div>
+      </li>
+      
+      <li>
+        <a href="https://github.com/hirayoki22?tab=repositories" target="_blank">
+          <i class="fab fa-github"></i>
+          <span>Github</span>
+        </a>          
+      </li>
+    </ul>
+  </div>
+</div>

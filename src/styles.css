@@ -172,7 +172,6 @@ body, html {
 
 body {
   background: #fff;
-  /* overflow: hidden; */
 }
 
 html::-webkit-scrollbar-thumb {

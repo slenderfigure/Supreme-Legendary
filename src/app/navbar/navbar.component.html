@@ -2,6 +2,10 @@
   <div class="header-design"></div>
   <nav class="navbar">
     <div class="wrapper">
+      <button (click)="onMenuBtnClick()" class="menu-button">
+        <i class="fas fa-bars"></i>
+      </button>
+
       <a 
         [routerLink]="['/home']" class="logo">
         <div class="strike"></div>

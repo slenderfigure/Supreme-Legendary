@@ -1,6 +1,6 @@
 form {
   width: 300px;
-  margin: 4rem auto 40rem;
+  margin: 4rem auto 6rem;
 }
 
 .form-group {
@@ -38,4 +38,3 @@ form button {
   border-radius: 4px;
   background-color: #333;
 }
-

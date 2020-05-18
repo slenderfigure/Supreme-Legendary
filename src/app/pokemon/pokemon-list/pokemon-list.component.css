@@ -1,7 +1,7 @@
 .wrapper {
   position: relative;
   max-width: 1000px;
-  margin: 0 auto 4rem;
+  margin: auto;
   background-color: #fff;
   animation: reveal 0.6s ease;
   overflow: hidden;
