@@ -51,6 +51,12 @@
   background: linear-gradient(45deg, #7877e4, #39547a);
   overflow-x: hidden;
   overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.fixed::-webkit-scrollbar {
+  display: none;
 }
 
 .fixed ul {

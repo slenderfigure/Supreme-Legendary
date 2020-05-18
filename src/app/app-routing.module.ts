@@ -6,8 +6,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 const route: Route[] = [
-  // { path: 'home', component: DashboardComponent },
-  { path: 'home', component: ReactiveFormComponent },
+  { path: 'home', component: DashboardComponent },
+  // { path: 'home', component: ReactiveFormComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];

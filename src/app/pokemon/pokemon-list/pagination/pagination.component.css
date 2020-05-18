@@ -49,6 +49,8 @@
   overflow-x: scroll;
   -mz-scrollbars: 0;
   border-radius: 38px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .page-button-wrapper::-webkit-scrollbar {

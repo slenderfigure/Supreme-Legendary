@@ -165,6 +165,7 @@ header {
   display: flex;
   align-items: center;
   width: fit-content;
+  overflow: hidden;
 }
 
 .navbar ul li {
@@ -274,6 +275,17 @@ header {
   font-size: 1.4rem;
 }
 
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @media (max-width: 800px) {
   /* header {
     top: 0;
@@ -287,5 +299,20 @@ header {
   
   .menu-button {
     display: block !important;
+    animation: slideLeft 0.3s ease forwards;
   }
+  
+  .hero p {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    line-height: 1.6rem;
+    text-shadow: 0 2px 10px rgba(54, 134, 253, 0.7);
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
 }

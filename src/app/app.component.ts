@@ -2,6 +2,8 @@ import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { NavbarLink } from './navbar-link';
 
 import { NavbarComponent } from './navbar/navbar.component';
+import { fromEvent } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,6 @@ import { NavbarComponent } from './navbar/navbar.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  showMenu: boolean = false;
   @ViewChild('slidable') slidable: ElementRef<HTMLElement>;
   @ViewChild(NavbarComponent) navbar: NavbarComponent;
 
@@ -23,9 +24,30 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.navbar.notifyChange.subscribe(value => this.changeState(value));
+
+    this.onResize();
+    this.onClickOutside();    
   }
 
-  changeState(value: boolean): void {
+  private onResize(): void {
+    fromEvent(window, 'resize').subscribe(() => {
+      if (this.navbar.showMenu && window.innerWidth > 800) {
+        this.resetMenuState();
+      }
+    });
+  }
+
+  private onClickOutside(): void {
+    fromEvent(this.slidable.nativeElement, 'click').pipe(
+      map(e => e.target as HTMLElement)
+    ).subscribe(target => {
+      if (this.navbar.showMenu && !target.classList.contains('fas')) {
+        this.resetMenuState();
+      }
+    });
+  }
+
+  private changeState(value: boolean): void {
     const slidable = this.slidable.nativeElement;
     const state = value ? 'show' : 'hide';
     
@@ -35,7 +57,7 @@ export class AppComponent implements AfterViewInit {
 
   resetMenuState(): void {
     this.navbar.showMenu = false;
-    this.slidable.nativeElement.className = 'slidable hide-show';
+    this.slidable.nativeElement.className = 'slidable hide-menu';
     document.body.style.overflow = 'auto';
   }
 
