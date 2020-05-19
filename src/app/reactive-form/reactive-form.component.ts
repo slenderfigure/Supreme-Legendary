@@ -20,10 +20,12 @@ export class ReactiveFormComponent implements OnInit {
   ngOnInit(): void {
     this.fields$ = this.fs.formFields;
     this.form = this.fs.generateForm();
+
+    this.fs.formFields.subscribe(val => console.log(JSON.stringify(val)));
   }
 
   onSubmit(): void {
-    // console.log(this.form.get('username').errors);
-    console.log(this.form.value);
+    console.log(this.form.get('username').errors);
+    // console.log(this.form.value);
   }
 }
