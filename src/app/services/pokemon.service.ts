@@ -34,11 +34,22 @@ export class PokemonService {
     ]);
   }
 
-  
   constructor(private http: HttpClient) { }
 
   getPokedex(): Observable<Pokemon[]> {
     return this.http.get<Pokemon[]>(this.url).pipe(
+      catchError(this.errorHandler)
+    );
+  }
+
+  searchByTerm(term: string): Observable<Pokemon[]> {
+    return this.getPokedex().pipe(
+      map(pokedex => {
+        return term.length >= 2 ? pokedex.filter(match => {
+          return match.name.toLowerCase().slice(0, term.length) == term ||
+            match.entryNumber.toString().match(term);
+        }).slice(0, 5) : [];
+      }),
       catchError(this.errorHandler)
     );
   }

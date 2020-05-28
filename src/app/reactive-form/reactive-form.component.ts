@@ -20,8 +20,6 @@ export class ReactiveFormComponent implements OnInit {
   ngOnInit(): void {
     this.fields$ = this.fs.formFields;
     this.form = this.fs.generateForm();
-
-    this.fs.formFields.subscribe(val => console.log(JSON.stringify(val)));
   }
 
   onSubmit(): void {

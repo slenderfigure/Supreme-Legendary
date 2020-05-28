@@ -51,20 +51,10 @@ export class FilterOptionsComponent implements OnInit, AfterViewInit {
     fromEvent(this.searchField.nativeElement, 'input').pipe(
       map(e => e.target as HTMLInputElement),
       map(input => input.value.trim().toLowerCase()),
-      debounceTime(50)
-    ).subscribe(value => {
-      const sub = this.ps.getPokedex().subscribe(pokedex => {
-        this.matches = pokedex.filter(match => {
-          return match.name.toLowerCase().slice(0, value.length) == value ||
-            match.entryNumber.toString().match(value);
-        }).slice(0, 5);
-      })
-
-      if (value.length < 2) {
-        this.resetDefaults();
-        sub.unsubscribe();
-      }
-    });
+      distinctUntilChanged(),
+      debounceTime(100),
+      switchMap(value => this.ps.searchByTerm(value))
+    ).subscribe(matches => this.matches = matches);
   }
 
   onKeyDown(e: KeyboardEvent): void {
