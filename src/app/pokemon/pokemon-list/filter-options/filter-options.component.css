@@ -62,15 +62,18 @@ input:not([type="checkbox"]) {
   animation: showMatches 0.3s ease forwards;
 }
 
-.matches li,
-.matches li.active {
+.matches li {
   position: relative;
   width: 100%;
   transition: background-color 0.3s ease;
 }
 
-.matches li::before,
-.matches li.active::before {
+.matches li.active {
+  background: 
+  linear-gradient(45deg,rgba(89, 202, 255, 0.4), rgba(78, 76, 204, 0.2));
+}
+
+.matches li::before {
   content: '';
   opacity: 0;
   position: absolute;
