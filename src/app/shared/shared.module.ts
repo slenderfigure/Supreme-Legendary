@@ -13,7 +13,8 @@ import { ImageLoaderDirective } from './image-loader.directive';
   declarations: [
     RepeatPipe,
     SpinnerComponent,
-    StarRating
+    StarRating,
+    ImageLoaderDirective
   ],
   imports: [ CommonModule ],
   exports: [
