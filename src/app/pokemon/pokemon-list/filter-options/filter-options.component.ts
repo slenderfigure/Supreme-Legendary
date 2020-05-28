@@ -3,7 +3,7 @@ import { Output, EventEmitter } from '@angular/core';
 import { ViewChild, ViewChildren, QueryList, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable, fromEvent } from 'rxjs';
-import { map, filter, debounceTime, switchMap, distinctUntilChanged } from 'rxjs/operators';
+import { map, debounceTime, switchMap, distinctUntilChanged } from 'rxjs/operators';
 
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { Pokemon } from '../../pokemon';
@@ -33,8 +33,7 @@ export class FilterOptionsComponent implements OnInit, AfterViewInit {
   ) { }
 
   ngOnInit(): void {
-    this.types$ = this.ps.types;
-    
+    this.types$ = this.ps.types;    
   }
 
   ngAfterViewInit(): void {
