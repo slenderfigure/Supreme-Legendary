@@ -20,7 +20,7 @@
         <a 
           *ngFor="let pokemon of filteredPokedex"
           [routerLink]="['/pokedex', pokemon.name | lowercase]" class="preview">
-          <img [src]="pokemon.iconUrl" [alt]="pokemon.name">
+          <img image-loader [src]="pokemon.iconUrl" [alt]="pokemon.name">
           
           <div class="content">
             <span>#{{ pokemon.entryNumber }}</span>

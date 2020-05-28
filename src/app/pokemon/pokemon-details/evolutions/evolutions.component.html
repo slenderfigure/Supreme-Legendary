@@ -12,7 +12,7 @@
     
         <a [routerLink]="['/pokedex', evol.name | lowercase]" 
           class="row image-container">
-          <img [src]="evol.iconUrl" [alt]="pokemon.name">
+          <img image-loader [src]="evol.iconUrl" [alt]="pokemon.name">
         </a>
     
         <a [routerLink]="['/pokedex', evol.name | lowercase]" 
@@ -41,7 +41,7 @@
       <div class="column-3">
         <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
           class="row image-container">
-          <img [src]="pokemon.iconUrl" [alt]="pokemon.name">
+          <img image-loader [src]="pokemon.iconUrl" [alt]="pokemon.name">
         </a>
 
         <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
@@ -70,7 +70,7 @@
       
           <a [routerLink]="['/pokedex', evol.name | lowercase]" 
             class="row image-container">
-            <img [src]="evol.iconUrl" [alt]="pokemon.name">
+            <img image-loader [src]="evol.iconUrl" [alt]="pokemon.name">
           </a>
       
           <a [routerLink]="['/pokedex', evol.name | lowercase]" 
@@ -98,7 +98,7 @@
         <div class="column-3">
           <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 
             class="row image-container">
-            <img [src]="pokemon.iconUrl" [alt]="pokemon.name">
+            <img image-loader [src]="pokemon.iconUrl" [alt]="pokemon.name">
           </a>
 
           <a [routerLink]="['/pokedex', pokemon.name | lowercase]" 

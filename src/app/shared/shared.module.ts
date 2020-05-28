@@ -6,6 +6,7 @@ import { PokemonRoutingModule } from '../pokemon/pokemon-routing.module';
 import { RepeatPipe } from './repeat.pipe';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { StarRating } from './star-rating/star-rating.component';
+import { ImageLoaderDirective } from './image-loader.directive';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { StarRating } from './star-rating/star-rating.component';
     PokemonRoutingModule,
     RepeatPipe,
     SpinnerComponent,
-    StarRating
+    StarRating,
+    ImageLoaderDirective
   ]
 })
 export class SharedModule { }
