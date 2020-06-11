@@ -1,0 +1,2591 @@
+[
+  {
+    "entryNumber": "003",
+    "name": "Mega Venusaur",
+    "traits": {
+      "height": "7' 10\"",
+      "weight": 342.8
+    },
+    "category": "Seed",
+    "abilities": ["Thick Fat"],
+    "types": ["Grass", "Poison"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 123,
+      "spAtk": 122,
+      "spDef": 120,
+      "speed": 80
+    },
+    "imageUrl": "assets/pokemon-imgs/full/003_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/003_f2.png"
+  },
+  {
+    "entryNumber": "006",
+    "name": "Mega Charizard X",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 243.6
+    },
+    "category": "Flame",
+    "abilities": ["Tough Claws"],
+    "types": ["Fire", "Dragon"],
+    "weaknesses": ["Ground", "Rock", "Dragon"],
+    "baseStats": {
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "spAtk": 130,
+      "spDef": 85,
+      "speed": 100
+    },
+    "imageUrl": "assets/pokemon-imgs/full/006_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/006_f2.png"
+  },
+  {
+    "entryNumber": "006",
+    "name": "Mega Charizard Y",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 221.6
+    },
+    "category": "Flame",
+    "abilities": ["Drought"],
+    "types": ["Fire", "Flying"],
+    "weaknesses": ["Water", "Electric", "Rock"],
+    "baseStats": {
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "spAtk": 159,
+      "spDef": 115,
+      "speed": 100
+    },
+    "imageUrl": "assets/pokemon-imgs/full/006_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/006_f3.png"
+  },
+  {
+    "entryNumber": "009",
+    "name": "Mega Blastoise",
+    "traits": {
+      "height": "5' 03\"",
+      "weight": 222.9
+    },
+    "category": "Shellfish",
+    "abilities": ["Mega Launcher"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "baseStats": {
+      "hp": 79,
+      "attack": 103,
+      "defense": 120,
+      "spAtk": 135,
+      "spDef": 115,
+      "speed": 100
+    },
+    "imageUrl": "assets/pokemon-imgs/full/009_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/009_f2.png"
+  },
+  {
+    "entryNumber": "150",
+    "name": "Mega Mewtwo X",
+    "description": "",
+    "traits": {
+      "height": "7' 07\"",
+      "weight": 280
+    },
+    "category": "Genetic",
+    "abilities": [ "Steadfast" ],
+    "types": [ "Psychic", "Fighting" ],
+    "weaknesses": [ "Ghost", "Fairy", "Flying" ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 190,
+      "defense": 100,
+      "spAtk": 154,
+      "spDef": 100,
+      "speed": 130
+    },
+    "imageUrl": "assets/pokemon-imgs/full/150_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/150_f2.png"
+  },
+  {
+    "entryNumber": "150",
+    "name": "Mega Mewtwo Y",
+    "traits": {
+      "height": "4' 11\"",
+      "weight": 72.8
+    },
+    "category": "Genetic",
+    "abilities": [ "Insomnia" ],
+    "types": [ "Psychic" ],
+    "weaknesses": [ "Ghost", "Dark", "Bug" ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 150,
+      "defense": 70,
+      "spAtk": 194,
+      "spDef": 120,
+      "speed": 140
+    },
+    "imageUrl": "assets/pokemon-imgs/full/150_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/150_f3.png"
+  },
+  {
+    "entryNumber": "015",
+    "name": "Mega Beedrill",
+    "traits": {
+      "height": "4′07″",
+      "weight": 89.3
+    },
+    "baseStats": {
+      "hp": 65,
+      "attack": 150,
+      "defense": 40,
+      "spAtk": 15,
+      "spDef": 80,
+      "speed": 145
+    },
+    "category": "Poison Bee",
+    "abilities": [
+      "Adaptability"
+    ],
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Psychic",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/015_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/015_f2.png"
+  },
+  {
+    "entryNumber": "018",
+    "name": "Mega Pidgeot",
+    "description": "",
+    "traits": {
+      "height": "7' 03\"",
+      "weight": 111.3
+    },
+    "baseStats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 80,
+      "spAtk": 135,
+      "spDef": 80,
+      "speed": 121
+    },
+    "category": "Bird",
+    "abilities": [
+      "No Guard"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "weaknesses": [
+      "Electric",
+      "Ice",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/018_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/018_f2.png"
+  }, 
+  {
+    "entryNumber": "019",
+    "name": "Alolan Form",
+    "description": "It shows no interest in anything that isn't fresh. If you take it shopping with you, it will help you pick out ingredients.",
+    "traits": {
+      "height": "1' 00\"",
+      "weight": 8.4
+    },
+    "baseStats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "spAtk": 25,
+      "spDef": 35,
+      "speed": 72
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mouse",
+    "abilities": [
+      "Hustle",
+      "Gluttony"
+    ],
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Bug",
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/019_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/019_f2.png"
+  },
+  {
+    "entryNumber": "020",
+    "name": "Alolan Form",
+    "description": "It has an incredibly greedy personality. Its nest is filled with so much food gathered by Rattata at its direction, it can't possibly eat it all.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 56.2
+    },
+    "baseStats": {
+      "hp": 75,
+      "attack": 71,
+      "defense": 70,
+      "spAtk": 40,
+      "spDef": 80,
+      "speed": 77
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mouse",
+    "abilities": [
+      "Hustle",
+      "Gluttony"
+    ],
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Bug",
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/020_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/020_f2.png"
+  },  
+  {
+    "entryNumber": "026",
+    "name": "Alolan Form",
+    "description": "It focuses psychic energy into its tail and rides it like it's surfing. Another name for this Pokémon is \"hodad\".",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 46.3
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 50,
+      "spAtk": 95,
+      "spDef": 85,
+      "speed": 110
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mouse",
+    "abilities": [
+      "Surge Surfer"
+    ],
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Dark",
+      "Bug",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/026_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/026_f2.png"
+  },
+  {
+    "entryNumber": "027",
+    "name": "Alolan Form",
+    "description": "After fleeing a volcanic eruption, it ended up moving to an area of snowy mountains. Its ice shell is as hard as steel.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 88.2
+    },
+    "baseStats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "spAtk": 10,
+      "spDef": 35,
+      "speed": 40
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mouse",
+    "abilities": [
+      "Snow Cloak"
+    ],
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/027_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/027_f2.png"
+  },
+  {
+    "entryNumber": "028",
+    "name": "Alolan Form",
+    "description": "It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 121.3
+    },
+    "baseStats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 120,
+      "spAtk": 25,
+      "spDef": 65,
+      "speed": 65
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mouse",
+    "abilities": [
+      "Snow Cloak"
+    ],
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/028_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/028_f2.png"
+  },
+  {
+    "entryNumber": "037",
+    "name": "Alolan Form",
+    "description": "After long years in the ever-snowcapped mountains of Alola, this Vulpix has gained power over ice.",
+    "traits": {
+      "height": "2' 00\"",
+      "weight": 21.8
+    },
+    "baseStats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "spAtk": 50,
+      "spDef": 65,
+      "speed": 65
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Fox",
+    "abilities": [
+      "Snow Cloak"
+    ],
+    "types": [
+      "Ice"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Steel",
+      "Fighting",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/037_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/037_f2.png"
+  },  
+  {
+    "entryNumber": "038",
+    "name": "Alolan Form",
+    "description": "A deity resides in the snowy mountains where this Pokémon lives. In ancient times, it was worshiped as that deity's incarnation.",
+    "traits": {
+      "height": "3' 07\"",
+      "weight": 43.9
+    },
+    "baseStats": {
+      "hp": 73,
+      "attack": 67,
+      "defense": 75,
+      "spAtk": 81,
+      "spDef": 100,
+      "speed": 109
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Fox",
+    "abilities": [
+      "Snow Cloak"
+    ],
+    "types": [
+      "Ice",
+      "Fairy"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Steel",
+      "Poison",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/038_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/038_f2.png"
+  },
+  {
+    "entryNumber": "065",
+    "name": "Mega Alakazam",
+    "description": "Alakazam's brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 105.8
+    },
+    "baseStats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 65,
+      "spAtk": 175,
+      "spDef": 105,
+      "speed": 150
+    },
+    "category": "Psi",
+    "abilities": [
+      "Trace"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Dark",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/065_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/065_f2.png"
+  },  
+  {
+    "entryNumber": "050",
+    "name": "Alolan Form",
+    "description": "The metal-rich geology of this Pokémon's habitat caused it to develop steel whiskers on its head.",
+    "traits": {
+      "height": "0' 08\"",
+      "weight": 2.2
+    },
+    "baseStats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 30,
+      "spAtk": 35,
+      "spDef": 45,
+      "speed": 90
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mole",
+    "abilities": [
+      "Sand Veil",
+      "Tangling Hair"
+    ],
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/050_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/050_f2.png"
+  },
+  {
+    "entryNumber": "051",
+    "name": "Alolan Form",
+    "description": "Their beautiful, metallic whiskers create a sort of protective helmet on their heads, and they also function as highly precise sensors.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 146.8
+    },
+    "baseStats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 60,
+      "spAtk": 50,
+      "spDef": 70,
+      "speed": 110
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Mole",
+    "abilities": [
+      "Sand Veil",
+      "Tangling Hair"
+    ],
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/051_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/051_f2.png"
+  },     
+  {
+    "entryNumber": "052",
+    "name": "Alolan Form",
+    "description": "It's accustomed to luxury because it used to live with Alolan royalty. As a result, it's very picky about food.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 9.3
+    },
+    "baseStats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 35,
+      "spAtk": 50,
+      "spDef": 40,
+      "speed": 90
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Scratch Cat",
+    "abilities": [
+      "Pickup",
+      "Technician"
+    ],
+    "types": [
+      "Dark"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Bug",
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/052_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/052_f2.png"
+  },
+  {
+    "entryNumber": "052",
+    "name": "Galarian Form",
+    "description": "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 16.5
+    },
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 55,
+      "spAtk": 40,
+      "spDef": 40,
+      "speed": 40
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Scratch Cat",
+    "abilities": [
+      "Pickup",
+      "Tough Claws"
+    ],
+    "types": [
+      "Steel"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/052_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/052_f3.png"
+  },
+  {
+    "entryNumber": "053",
+    "name": "Alolan Form",
+    "description": "The round face of Alolan Persian is considered to be a symbol of prosperity in the Alola region, so these Pokémon are very well cared for.",
+    "traits": {
+      "height": "3' 07\"",
+      "weight": 72.8
+    },
+    "baseStats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 60,
+      "spAtk": 75,
+      "spDef": 65,
+      "speed": 115
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Classy Cat",
+    "abilities": [
+      "Technician",
+      "Fur Coat"
+    ],
+    "types": [
+      "Dark"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Bug",
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/053_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/053_f2.png"
+  },
+  {
+    "entryNumber": "074",
+    "name": "Alolan Form",
+    "description": "If you mistake it for a rock and step on it, it will headbutt you in anger. In addition to the pain, it will also zap you with a shock.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 44.8
+    },
+    "baseStats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "spAtk": 30,
+      "spDef": 30,
+      "speed": 20
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Rock",
+    "abilities": [
+      "Sturdy",
+      "Magnet Pull"
+    ],
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/074_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/074_f2.png"
+  },
+  {
+    "entryNumber": "075",
+    "name": "Alolan Form",
+    "description": "When two Graveler fight each other, it fills the surroundings with flashes of light and sound. People call it the \"fireworks of the earth\".",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 242.5
+    },
+    "baseStats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "spAtk": 45,
+      "spDef": 45,
+      "speed": 35
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Rock",
+    "abilities": [
+      "Sturdy",
+      "Magnet Pull"
+    ],
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/075_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/075_f2.png"
+  },
+  {
+    "entryNumber": "076",
+    "name": "Alolan Form",
+    "description": "It's grumpy and stubborn. If you upset it, it discharges electricity from the surface of its body and growls with a voice like thunder.",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 696.7
+    },
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "spAtk": 55,
+      "spDef": 65,
+      "speed": 45
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Megaton",
+    "abilities": [
+      "Sturdy",
+      "Magnet Pull"
+    ],
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/076_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/076_f2.png"
+  },
+  {
+    "entryNumber": "077",
+    "name": "Galarian Form",
+    "description": "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 52.9
+    },
+    "baseStats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "spAtk": 65,
+      "spDef": 65,
+      "speed": 90
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Unique Horn",
+    "abilities": [
+      "Run Away",
+      "Pastel Veil"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Dark",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/077_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/077_f2.png"
+  },      
+  {
+    "entryNumber": "078",
+    "name": "Galarian Form",
+    "description": "Little can stand up to its psycho cut. Unleashed from this Pokémon's horn, the move will punch a hole right through a thick metal sheet.",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 176.4
+    },
+    "baseStats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "spAtk": 80,
+      "spDef": 80,
+      "speed": 105
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Unique Horn",
+    "abilities": [
+      "Run Away",
+      "Pastel Veil"
+    ],
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Steel",
+      "Poison"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/078_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/078_f2.png"
+  },  
+  {
+    "entryNumber": "080",
+    "name": "Mega Slowbro",
+    "description": "Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
+    "traits": {
+      "height": "6' 07\"",
+      "weight": 264.6
+    },
+    "baseStats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 180,
+      "spAtk": 130,
+      "spDef": 80,
+      "speed": 30
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Hermit Crab",
+    "abilities": [
+      "Shell Armor"
+    ],
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Dark",
+      "Grass",
+      "Electric",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/080_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/080_f2.png"
+  },  
+  {
+    "entryNumber": "083",
+    "name": "Galarian Form",
+    "description": "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle.",
+    "traits": {
+      "height": "2' 07\"",
+      "weight": 92.6
+    },
+    "baseStats": {
+      "hp": 52,
+      "attack": 95,
+      "defense": 55,
+      "spAtk": 58,
+      "spDef": 62,
+      "speed": 55
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Wild Duck",
+    "abilities": [
+      "Steadfast"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      "Psychic",
+      "Flying",
+      "Fairy"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/083_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/083_f2.png"
+  },
+  {
+    "entryNumber": "088",
+    "name": "Alolan Form",
+    "description": "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
+    "traits": {
+      "height": "2' 04\"",
+      "weight": 92.6
+    },
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "spAtk": 40,
+      "spDef": 50,
+      "speed": 25
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Sludge",
+    "abilities": [
+      "Gluttony",
+      "Poison Touch"
+    ],
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "weaknesses": [
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/088_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/088_f2.png"
+  },
+  {
+    "entryNumber": "089",
+    "name": "Alolan Form",
+    "description": "There are over a hundred kinds of poison inside its body. Chemical reactions between different poisons are the source of its vitality.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 114.6
+    },
+    "baseStats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "spAtk": 65,
+      "spDef": 100,
+      "speed": 50
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Sludge",
+    "abilities": [
+      "Gluttony",
+      "Poison Touch"
+    ],
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "weaknesses": [
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/089_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/089_f2.png"
+  },
+  {
+    "entryNumber": "094",
+    "name": "Mega Gengar",
+    "description": "Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
+    "traits": {
+      "height": "4' 07\"",
+      "weight": 89.3
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "spAtk": 170,
+      "spDef": 95,
+      "speed": 130
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Shadow",
+    "abilities": [
+      "Shadow Tag"
+    ],
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Dark",
+      "Psychic",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/094_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/094_f2.png"
+  },
+  {
+    "entryNumber": "208",
+    "name": "Mega Steelix",
+    "description": "Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth's core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground.",
+    "traits": {
+      "height": "34' 05\"",
+      "weight": 1631.4
+    },
+    "baseStats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 230,
+      "spAtk": 55,
+      "spDef": 95,
+      "speed": 30
+    },
+    "category": "Iron Snake",
+    "abilities": [
+      "Sand Force"
+    ],
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Fighting",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/208_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/208_f2.png"
+  },  
+  {
+    "entryNumber": "103",
+    "name": "Alolan Form",
+    "description": "Exeggutor is the pride of the Alolan people. Its image is carved into historical buildings and murals.",
+    "traits": {
+      "height": "35' 09\"",
+      "weight": 916.2
+    },
+    "baseStats": {
+      "hp": 95,
+      "attack": 105,
+      "defense": 85,
+      "spAtk": 125,
+      "spDef": 75,
+      "speed": 45
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Coconut",
+    "abilities": [
+      "Frisk"
+    ],
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "weaknesses": [
+      "Flying",
+      "Ice",
+      "Dragon",
+      "Poison",
+      "Fairy",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/103_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/103_f2.png"
+  },     
+  {
+    "entryNumber": "105",
+    "name": "Alolan Form",
+    "description": "The rich greenery of the Alola region is hard on Marowak. It controls fire to stay alive.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 75
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "spAtk": 50,
+      "spDef": 80,
+      "speed": 45
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Bone Keeper",
+    "abilities": [
+      "Lightning Rod",
+      "Cursed Body"
+    ],
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ghost",
+      "Ground",
+      "Dark",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/105_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/105_f2.png"
+  },
+  {
+    "entryNumber": "110",
+    "name": "Galarian Form",
+    "description": "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
+    "traits": {
+      "height": "9' 10\"",
+      "weight": 35.3
+    },
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "spAtk": 85,
+      "spDef": 70,
+      "speed": 60
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Poison Gas",
+    "abilities": [
+      "Levitate",
+      "Neutralizing Gas"
+    ],
+    "types": [
+      "Poison",
+      "Fairy"
+    ],
+    "weaknesses": [
+      "Steel",
+      "Psychic",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/110_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/110_f2.png"
+  },  
+  {
+    "entryNumber": "115",
+    "name": "Mega Kangaskhan",
+    "description": "If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon's parent is sure to be in the area, and it will become violently enraged at you.",
+    "traits": {
+      "height": "7' 03\"",
+      "weight": 220.5
+    },
+    "baseStats": {
+      "hp": 105,
+      "attack": 125,
+      "defense": 100,
+      "spAtk": 60,
+      "spDef": 100,
+      "speed": 100
+    },
+    "category": "Parent",
+    "abilities": [
+      "Parental Bond"
+    ],
+    "types": [
+      "Normal"
+    ],
+    "weaknesses": [
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/115_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/115_f2.png"
+  },
+  {
+    "entryNumber": "122",
+    "name": "Galarian Mr. Mime",
+    "description": "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
+    "traits": {
+      "height": "4' 07\"",
+      "weight": 125.2
+    },
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "spAtk": 90,
+      "spDef": 90,
+      "speed": 100
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Dancing",
+    "abilities": [
+      "Vital Spirit",
+      "Screen Cleaner"
+    ],
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "weaknesses": [
+      "Steel",
+      "Ghost",
+      "Fire",
+      "Dark",
+      "Rock",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/122_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/122_f2.png"
+  },
+  {
+    "entryNumber": "212",
+    "name": "Mega Scizor",
+    "description": "Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This Pokémon flaps its wings to regulate its body temperature.",
+    "traits": {
+      "height": "6' 07\"",
+      "weight": 275.6
+    },
+    "baseStats": {
+      "hp": 70,
+      "attack": 150,
+      "defense": 140,
+      "spAtk": 65,
+      "spDef": 100,
+      "speed": 75
+    },
+    "category": "Pincer",
+    "abilities": [
+      "Technician"
+    ],
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/212_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/212_f2.png"
+  },
+  {
+    "entryNumber": "127",
+    "name": "Mega Pinsir",
+    "description": "Pinsir is astoundingly strong. It can grip a foe weighing twice its weight in its horns and easily lift it. This Pokémon's movements turn sluggish in cold places.",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 130.1
+    },
+    "baseStats": {
+      "hp": 65,
+      "attack": 155,
+      "defense": 120,
+      "spAtk": 65,
+      "spDef": 90,
+      "speed": 105
+    },
+    "category": "Stag Beetle",
+    "abilities": [
+      "Aerilate"
+    ],
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Electric",
+      "Ice",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/127_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/127_f2.png"
+  },  
+  {
+    "entryNumber": "130",
+    "name": "Mega Gyarados",
+    "description": "When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon's wildly violent nature.",
+    "traits": {
+      "height": "21' 04\"",
+      "weight": 672.4
+    },
+    "baseStats": {
+      "hp": 95,
+      "attack": 155,
+      "defense": 109,
+      "spAtk": 70,
+      "spDef": 130,
+      "speed": 51
+    },
+    "category": "Atrocious",
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Grass",
+      "Electric",
+      "Fighting",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/130_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/130_f2.png"
+  },
+  {
+    "entryNumber": "142",
+    "name": "Mega Aerodactyl",
+    "description": "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.",
+    "traits": {
+      "height": "6' 11\"",
+      "weight": 174.2
+    },
+    "baseStats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 85,
+      "spAtk": 70,
+      "spDef": 95,
+      "speed": 150
+    },
+    "category": "Fossil",
+    "abilities": [
+      "Tough Claws"
+    ],
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "weaknesses": [
+      "Steel",
+      "Water",
+      "Electric",
+      "Ice",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/142_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/142_f2.png"
+  },
+  {
+    "entryNumber": "254",
+    "name": "Mega Sceptile",
+    "description": "The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile—it leaps all over the branches of trees and jumps on its foe from above or behind.",
+    "traits": {
+      "height": "6' 03\"",
+      "weight": 121.7
+    },
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 75,
+      "spAtk": 145,
+      "spDef": 85,
+      "speed": 145
+    },
+    "category": "Forest",
+    "abilities": [
+      "Lightning Rod"
+    ],
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "weaknesses": [
+      "Flying",
+      "Ice",
+      "Dragon",
+      "Poison",
+      "Fairy",
+      "Bug"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/254_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/254_f2.png"
+  },
+  {
+    "entryNumber": "257",
+    "name": "Mega Blaziken",
+    "description": "In battle, Blaziken blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this Pokémon's wrists burn.",
+    "traits": {
+      "height": "6' 03\"",
+      "weight": 114.6
+    },
+    "baseStats": {
+      "hp": 80,
+      "attack": 160,
+      "defense": 80,
+      "spAtk": 130,
+      "spDef": 80,
+      "speed": 100
+    },
+    "category": "Blaze",
+    "abilities": [
+      "Speed Boost"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "weaknesses": [
+      "Water",
+      "Psychic",
+      "Flying",
+      "Ground"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/257_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/257_f2.png"
+  },  
+  {
+    "entryNumber": "260",
+    "name": "Mega Swampert",
+    "description": "Swampert is very strong. It has enough power to easily drag a boulder weighing more than a ton. This Pokémon also has powerful vision that lets it see even in murky water.",
+    "traits": {
+      "height": "6' 03\"",
+      "weight": 224.9
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 110,
+      "spAtk": 95,
+      "spDef": 110,
+      "speed": 70
+    },
+    "category": "Mud Fish",
+    "abilities": [
+      "Swift Swim"
+    ],
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "weaknesses": [
+      "Grass"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/260_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/260_f2.png"
+  },
+  {
+    "entryNumber": "263",
+    "name": "Galarian Form",
+    "description": "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 38.6
+    },
+    "baseStats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "spAtk": 30,
+      "spDef": 41,
+      "speed": 60
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Tiny Raccoon",
+    "abilities": [
+      "Pickup",
+      "Gluttony"
+    ],
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Bug",
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/263_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/263_f2.png",
+    "evolutions": [
+      263,
+      264,
+      862
+    ],
+    "evolutionOrder": 1
+  },  
+  {
+    "entryNumber": "264",
+    "name": "Galarian Form",
+    "description": "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 71.7
+    },
+    "baseStats": {
+      "hp": 78,
+      "attack": 70,
+      "defense": 61,
+      "spAtk": 50,
+      "spDef": 61,
+      "speed": 100
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Rushing",
+    "abilities": [
+      "Pickup",
+      "Gluttony"
+    ],
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Bug",
+      "Fighting"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/264_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/264_f2.png",
+    "evolutions": [
+      263,
+      264,
+      862
+    ],
+    "evolutionOrder": 2
+  },
+  {
+    "entryNumber": "214",
+    "name": "Mega Heracross",
+    "description": "Heracross charges in a straight line at its foe, slips beneath the foe's grasp, and then scoops up and hurls the opponent with its mighty horn. This Pokémon even has enough power to topple a massive tree.",
+    "traits": {
+      "height": "5' 07\"",
+      "weight": 137.8
+    },
+    "baseStats": {
+      "hp": 80,
+      "attack": 185,
+      "defense": 115,
+      "spAtk": 40,
+      "spDef": 105,
+      "speed": 75
+    },
+    "category": "Single Horn",
+    "abilities": [
+      "Skill Link"
+    ],
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Psychic",
+      "Flying",
+      "Fairy"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/214_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/214_f2.png"
+  },
+  {
+    "entryNumber": "222",
+    "name": "Galarian Form",
+    "description": "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it.",
+    "traits": {
+      "height": "2' 00\"",
+      "weight": 1.1
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 100,
+      "spAtk": 65,
+      "spDef": 100,
+      "speed": 30
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Coral",
+    "abilities": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Ghost"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Dark"
+    ],
+    "evolutions": [
+      222,
+      864
+    ],
+    "evolutionOrder": 1,
+    "imageUrl": "assets/pokemon-imgs/full/222_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/222_f2.png"
+  },
+  {
+    "entryNumber": "229",
+    "name": "Mega Houndoom",
+    "description": "In a Houndoom pack, the one with its horns raked sharply toward the back serves a leadership role. These Pokémon choose their leader by fighting among themselves.",
+    "traits": {
+      "height": "6' 03\"",
+      "weight": 109.1
+    },
+    "baseStats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 90,
+      "spAtk": 145,
+      "spDef": 90,
+      "speed": 115
+    },
+    "category": "Dark",
+    "abilities": [
+      "Solar Power"
+    ],
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Fighting",
+      "Rock"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/229_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/229_f2.png"
+  },  
+  {
+    "entryNumber": "181",
+    "name": "Mega Ampharos",
+    "description": "Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pokémon to send signals back and forth with others far away.",
+    "traits": {
+      "height": "4' 07\"",
+      "weight": 135.6
+    },
+    "baseStats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 105,
+      "spAtk": 165,
+      "spDef": 110,
+      "speed": 45
+    },
+    "category": "Light",
+    "abilities": [
+      "Mold Breaker"
+    ],
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "weaknesses": [
+      "Fairy",
+      "Ground",
+      "Ice",
+      "Dragon"
+    ],
+    "imageUrl": "assets/pokemon-imgs/full/181_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/181_f2.png"
+  },  
+  {
+    "entryNumber": "282",
+    "name": "Mega Gardevoir",
+    "description": "Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power.",
+    "traits": {
+      "height": "5' 03\"",
+      "weight": 106.7
+    },
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "category": "Embrace",
+    "abilities": [
+      "Pixilate"
+    ],
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Steel",
+      "Poison"
+    ],
+    "evolutionOrder": 3,
+    "baseStats": {
+      "hp": 68,
+      "attack": 85,
+      "defense": 65,
+      "spAtk": 165,
+      "spDef": 135,
+      "speed": 100
+    },
+    "imageUrl": "assets/pokemon-imgs/full/282_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/282_f2.png",
+    "evolutions": [
+      280,
+      281,
+      282
+    ]
+  },
+  {
+    "entryNumber": "475",
+    "name": "Mega Gallade",
+    "description": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+    "traits": {
+      "height": "5' 03\"",
+      "weight": 124.3
+    },
+    "category": "Blade",
+    "abilities": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "weaknesses": [
+      "Ghost",
+      "Fairy",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "attack": 165,
+      "defense": 95,
+      "spAtk": 65,
+      "spDef": 115,
+      "speed": 110
+    },
+    "imageUrl": "assets/pokemon-imgs/full/475_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/475_f2.png"
+  },
+  {
+    "entryNumber": "302",
+    "name": "Mega Sableye",
+    "description": "Sableye lead quiet lives deep inside caverns. They are feared, however, because these Pokémon are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
+    "traits": {
+      "height": "1' 08\"",
+      "weight": 354.9
+    },
+    "category": "Darkness",
+    "abilities": ["Magic Bounce"],
+    "types": ["Dark", "Ghost"],
+    "weaknesses": ["Fairy"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 125,
+      "spAtk": 85,
+      "spDef": 115,
+      "speed": 20
+    },
+    "imageUrl": "assets/pokemon-imgs/full/302_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/302_f2.png"
+  },
+  {
+    "entryNumber": "303",
+    "name": "Mega Mawile",
+    "description": "Mawile's huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, Mawile chomps it with its gaping jaws.",
+    "traits": {
+      "height": "3' 03\"",
+      "weight": 51.8
+    },
+    "category": "Deceiver",
+    "abilities": ["Huge Power"],
+    "types": ["Steel", "Fairy"],
+    "weaknesses": ["Fire", "Ground"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 15,
+      "defense": 125,
+      "spAtk": 55,
+      "spDef": 95,
+      "speed": 50
+    },
+    "imageUrl": "assets/pokemon-imgs/full/303_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/303_f2.png"
+  },
+  {
+    "entryNumber": "306",
+    "name": "Mega Aggron",
+    "description": "Aggron claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This Pokémon vigilantly patrols its territory at all times.",
+    "traits": {
+      "height": "7' 03\"",
+      "weight": 870.8
+    },
+    "category": "Iron Armor",
+    "abilities": ["Filter"],
+    "types": ["Steel"],
+    "weaknesses": ["Fire", "Fighting", "Ground"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 140,
+      "defense": 230,
+      "spAtk": 60,
+      "spDef": 80,
+      "speed": 50
+    },
+    "imageUrl": "assets/pokemon-imgs/full/306_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/306_f2.png"
+  },
+  {
+    "entryNumber": "308",
+    "name": "Mega Medicham",
+    "description": "It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 69.4
+    },
+    "category": "Meditate",
+    "abilities": ["Pure Power"],
+    "types": ["Fighting", "Psychic"],
+    "weaknesses": ["Ghost", "Fairy", "Flying"],
+    "baseStats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 85,
+      "spAtk": 80,
+      "spDef": 85,
+      "speed": 100
+    },
+    "imageUrl": "assets/pokemon-imgs/full/308_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/308_f2.png"
+  },
+  {
+    "entryNumber": "310",
+    "name": "Mega Manectric",
+    "description": "Manectric is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this Pokémon creates thunderclouds.",
+    "traits": {
+      "height": "5' 11\"",
+      "weight": 97
+    },
+    "category": "Discharge",
+    "abilities": ["Intimidate"],
+    "types": ["Electric"],
+    "weaknesses": ["Ground"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 80,
+      "spAtk": 135,
+      "spDef": 80,
+      "speed": 135
+    },
+    "imageUrl": "assets/pokemon-imgs/full/310_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/310_f2.png"
+  },
+  {
+    "entryNumber": "319",
+    "name": "Mega Sharpedo",
+    "description": "Nicknamed “the bully of the sea,\" Sharpedo is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these Pokémon can thoroughly tear apart a supertanker.",
+    "traits": {
+      "height": "8' 02\"",
+      "weight": 287.3
+    },
+    "category": "Brutal",
+    "abilities": ["Strong Jaw"],
+    "types": ["Water", "Dark"],
+    "weaknesses": ["Fairy", "Grass", "Electric", "Fighting", "Bug"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 140,
+      "defense": 70,
+      "spAtk": 110,
+      "spDef": 65,
+      "speed": 105
+    },
+    "imageUrl": "assets/pokemon-imgs/full/319_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/319_f2.png"
+  },
+  {
+    "entryNumber": "323",
+    "name": "Mega Camerupt",
+    "description": "Camerupt has a volcano inside its body. Magma of 18,000 degrees Fahrenheit courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
+    "traits": {
+      "height": "8' 02\"",
+      "weight": 706.6
+    },
+    "category": "Eruption",
+    "abilities": ["Sheer Force"],
+    "types": ["Fire", "Ground"],
+    "weaknesses": ["Water", "Ground"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 100,
+      "spAtk": 145,
+      "spDef": 105,
+      "speed": 20
+    },
+    "imageUrl": "assets/pokemon-imgs/full/323_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/323_f2.png"
+  },
+  {
+    "entryNumber": "334",
+    "name": "Mega Altaria",
+    "description": "Altaria dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this Pokémon makes its listeners experience dreamy wonderment.",
+    "traits": {
+      "height": "4' 11\"",
+      "weight": 45.4
+    },
+    "category": "Humming",
+    "abilities": ["Pixilate"],
+    "types": ["Dragon", "Fairy"],
+    "weaknesses": ["Steel", "Fairy", "Ice", "Poison"],
+    "baseStats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 110,
+      "spAtk": 110,
+      "spDef": 105,
+      "speed": 80
+    },
+    "imageUrl": "assets/pokemon-imgs/full/334_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/334_f2.png"
+  },
+  {
+    "entryNumber": "354",
+    "name": "Mega Banette",
+    "description": "Banette generates energy for laying strong curses by sticking pins into its own body. This Pokémon was originally a pitiful plush doll that was thrown away.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 28.7
+    },
+    "category": "Marionette",
+    "abilities": ["Prankster"],
+    "types": ["Ghost"],
+    "weaknesses": ["Ghost", "Dark"],
+    "baseStats": {
+      "hp": 64,
+      "attack": 165,
+      "defense": 75,
+      "spAtk": 93,
+      "spDef": 83,
+      "speed": 75
+    },
+    "imageUrl": "assets/pokemon-imgs/full/354_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/354_f2.png"
+  },
+  {
+    "entryNumber": "359",
+    "name": "Mega Absol",
+    "description": "Every time Absol appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster Pokémon.",
+    "traits": {
+      "height": "3' 11\"",
+      "weight": 108
+    },
+    "category": "Disaster",
+    "abilities": ["Magic Bounce"],
+    "types": ["Dark"],
+    "weaknesses": ["Fairy", "Bug", "Fighting"],
+    "baseStats": {
+      "hp": 65,
+      "attack": 150,
+      "defense": 60,
+      "spAtk": 115,
+      "spDef": 60,
+      "speed": 115
+    },
+    "imageUrl": "assets/pokemon-imgs/full/359_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/359_f2.png"
+  },
+  {
+    "entryNumber": "362",
+    "name": "Mega Glalie",
+    "description": "Glalie has a body made of rock, which it hardens with an armor of ice. This Pokémon has the ability to freeze moisture in the atmosphere into any shape it desires.",
+    "traits": {
+      "height": "6' 11\"",
+      "weight": 772.1
+    },
+    "category": "Face",
+    "abilities": ["Refrigerate"],
+    "types": ["Ice"],
+    "weaknesses": ["Fire", "Steel", "Fighting", "Rock"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "spAtk": 120,
+      "spDef": 80,
+      "speed": 100
+    },
+    "imageUrl": "assets/pokemon-imgs/full/362_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/362_f2.png"
+  },
+  {
+    "entryNumber": "373",
+    "name": "Mega Salamence",
+    "description": "Salamence came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this Pokémon's cells, causing it to sprout its magnificent wings.",
+    "traits": {
+      "height": "5' 11\"",
+      "weight": 248.2
+    },
+    "category": "Dragon",
+    "abilities": ["Aerilate"],
+    "types": ["Dragon", "Flying"],
+    "weaknesses": ["Fairy", "Dragon", "Ice", "Rock"],
+    "baseStats": {
+      "hp": 95,
+      "attack": 145,
+      "defense": 130,
+      "spAtk": 120,
+      "spDef": 90,
+      "speed": 120
+    },
+    "imageUrl": "assets/pokemon-imgs/full/373_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/373_f2.png"
+  },
+  {
+    "entryNumber": "376",
+    "name": "Mega Metagross",
+    "description": "Metagross has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This Pokémon can float in the air by tucking in its four legs.",
+    "traits": {
+      "height": "8' 02\"",
+      "weight": 2078.7
+    },
+    "category": "Iron Leg",
+    "abilities": ["Tough Claws"],
+    "types": ["Steel", "Psychic"],
+    "weaknesses": ["Ghost", "Fire", "Dark", "Ground"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "spAtk": 105,
+      "spDef": 110,
+      "speed": 110
+    },
+    "imageUrl": "assets/pokemon-imgs/full/376_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/376_f2.png"
+  },
+  {
+    "entryNumber": "380",
+    "name": "Mega Latias",
+    "description": "Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate the foe.",
+    "traits": {
+      "height": "5' 11\"",
+      "weight": 114.6
+    },
+    "category": "Eon",
+    "abilities": ["Levitate"],
+    "types": ["Dragon", "Psychic"],
+    "weaknesses": ["Ghost", "Ice", "Dragon", "Dark", "Fairy", "Bug"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 120,
+      "spAtk": 140,
+      "spDef": 150,
+      "speed": 110
+    },
+    "imageUrl": "assets/pokemon-imgs/full/380_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/380_f2.png"
+  }, 
+  {
+    "entryNumber": "381",
+    "name": "Mega Latios",
+    "description": "Latios has the ability to make others see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.",
+    "traits": {
+      "height": "7' 07\"",
+      "weight": 154.3
+    },
+    "category": "Eon",
+    "abilities": ["Levitate"],
+    "types": ["Dragon", "Psychic"],
+    "weaknesses": ["Ghost", "Ice", "Dragon", "Dark", "Fairy", "Bug"],
+    "baseStats": {
+      "hp": 80,
+      "attack": 130,
+      "defense": 100,
+      "spAtk": 160,
+      "spDef": 120,
+      "speed": 110
+    },
+    "imageUrl": "assets/pokemon-imgs/full/381_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/381_f2.png"
+  },
+  {
+    "entryNumber": "382",
+    "name": "Primal Kyogre",
+    "description": "Through Primal Reversion and with nature's full power, it will take back its true form. It can summon storms that cause the sea levels to rise.",
+    "traits": {
+      "height": "32' 02\"",
+      "weight": 948
+    },
+    "category": "Sea Basin",
+    "abilities": ["Primordial Sea"],
+    "types": ["Water"],
+    "weaknesses": ["Grass", "Electric"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 90,
+      "spAtk": 180,
+      "spDef": 160,
+      "speed": 90
+    },
+    "imageUrl": "assets/pokemon-imgs/full/382_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/382_f2.png"
+  },
+  {
+    "entryNumber": "383",
+    "name": "Primal Groudon",
+    "description": "Through Primal Reversion and with nature’s full power, it will take back its true form. It can cause magma to erupt and expand the landmass of the world.",
+    "traits": {
+      "height": "16' 05\"",
+      "weight": 2204
+    },
+    "category": "Continent",
+    "abilities": ["Desolate Land"],
+    "types": ["Ground", "Fire"],
+    "weaknesses": ["Water", "Ground"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 180,
+      "defense": 160,
+      "spAtk": 150,
+      "spDef": 90,
+      "speed": 90
+    },
+    "imageUrl": "assets/pokemon-imgs/full/383_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/383_f2.png"
+  },
+  {
+    "entryNumber": "384",
+    "name": "Mega Rayquaza",
+    "description": "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega Evolve.",
+    "traits": {
+      "height": "35' 05\"",
+      "weight": 864.2
+    },
+    "category": "Sky High",
+    "abilities": ["Delta Stream"],
+    "types": ["Dragon", "Flying"],
+    "weaknesses": ["Fairy", "Dragon", "Ice", "Rock"],
+    "baseStats": {
+      "hp": 105,
+      "attack": 180,
+      "defense": 100,
+      "spAtk": 180,
+      "spDef": 100,
+      "speed": 115
+    },
+    "imageUrl": "assets/pokemon-imgs/full/384_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/384_f2.png"
+  },
+  {
+    "entryNumber": "386",
+    "name": "Attack Forme",
+    "baseStats": {
+      "hp": 50,
+      "attack": 180,
+      "defense": 20,
+      "spAtk": 180,
+      "spDef": 20,
+      "speed": 150
+    },
+    "imageUrl": "assets/pokemon-imgs/full/386_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/386_f2.png"
+  },
+  {
+    "entryNumber": "386",
+    "name": "Defense Forme",
+    "baseStats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 160,
+      "spAtk": 70,
+      "spDef": 160,
+      "speed": 90
+    },
+    "imageUrl": "assets/pokemon-imgs/full/386_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/386_f3.png"
+  },
+  {
+    "entryNumber": "386",
+    "name": "Speed Forme",
+    "baseStats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 90,
+      "spAtk": 95,
+      "spDef": 90,
+      "speed": 180
+    },
+    "imageUrl": "assets/pokemon-imgs/full/386_f4.png",
+    "iconUrl": "assets/pokemon-imgs/detail/386_f4.png"
+  },
+  {
+    "entryNumber": "412",
+    "name": "Sandy Cloak",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "spAtk": 29,
+      "spDef": 45,
+      "speed": 36
+    },
+    "imageUrl": "assets/pokemon-imgs/full/412_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/412_f2.png"
+  },
+  {
+    "entryNumber": "412",
+    "name": "Trash Cloak",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "spAtk": 29,
+      "spDef": 45,
+      "speed": 36
+    },
+    "imageUrl": "assets/pokemon-imgs/full/412_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/412_f3.png"
+  },
+  {
+    "entryNumber": "413",
+    "name": "Sandy Cloak",
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "types": ["Bug", "Ground"],
+    "weaknesses": ["Fire", "Water", "Flying", "Ice"],
+    "baseStats": {
+      "hp": 60,
+      "attack": 79,
+      "defense": 105,
+      "spAtk": 59,
+      "spDef": 85,
+      "speed": 36
+    },
+    "imageUrl": "assets/pokemon-imgs/full/413_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/413_f2.png"
+  },
+  {
+    "entryNumber": "413",
+    "name": "Sandy Cloak",
+    "gender": {
+      "male": false,
+      "female": true
+    },
+    "types": ["Ground", "Steel"],
+    "weaknesses": ["Fire"],
+    "baseStats": {
+      "hp": 60,
+      "attack": 69,
+      "defense": 95,
+      "spAtk": 69,
+      "spDef": 95,
+      "speed": 36
+    },
+    "imageUrl": "assets/pokemon-imgs/full/413_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/413_f3.png"
+  },
+  {
+    "entryNumber": "421",
+    "name": "Sunshine Form",
+    "description": "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "spAtk": 87,
+      "spDef": 78,
+      "speed": 85
+    },
+    "imageUrl": "assets/pokemon-imgs/full/421_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/421_f2.png"
+  },
+  {
+    "entryNumber": "248",
+    "name": "Mega Tyranitar",
+    "description": "Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This Pokémon wanders about in mountains seeking new opponents to fight.",
+    "traits": {
+      "height": "8' 02\"",
+      "weight": 562.2
+    },
+    "category": "Armor",
+    "abilities": ["Sand Stream"],
+    "types": ["Dark", "Rock"],
+    "weaknesses": ["Steel", "Fighting", "Water", "Fairy", "Grass", "Bug", "Ground"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 164,
+      "defense": 150,
+      "spAtk": 95,
+      "spDef": 120,
+      "speed": 71
+    },
+    "imageUrl": "assets/pokemon-imgs/full/248_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/248_f2.png"
+  },
+  {
+    "entryNumber": "422",
+    "name": "East Sea",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 76,
+      "attack": 48,
+      "defense": 48,
+      "spAtk": 57,
+      "spDef": 62,
+      "speed": 34
+    },
+    "imageUrl": "assets/pokemon-imgs/full/422_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/422_f2.png"
+  },
+  {
+    "entryNumber": "423",
+    "name": "East Sea",
+    "gender": {
+      "male": true,
+      "female": true
+    },
+    "baseStats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "spAtk": 92,
+      "spDef": 82,
+      "speed": 39
+    },
+    "imageUrl": "assets/pokemon-imgs/full/423_f2.png"
+  },
+  {
+    "entryNumber": "428",
+    "name": "Mega Lopunny",
+    "description": "Extremely cautious, it quickly bounds off when it senses danger.",
+    "traits": {
+      "height": "4' 03\"",
+      "weight": 62.4
+    },
+    "category": "Rabbit",
+    "abilities": ["Scrappy"],
+    "types": ["Normal", "Fighting"],
+    "weaknesses": ["Psychic", "Flying", "Fairy", "Fighting"],
+    "baseStats": {
+      "hp": 65,
+      "attack": 136,
+      "defense": 94,
+      "spAtk": 54,
+      "spDef": 96,
+      "speed": 135
+    },
+    "imageUrl": "assets/pokemon-imgs/full/428_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/428_f2.png"
+  },
+  {
+    "entryNumber": "445",
+    "name": "Mega Garchomp",
+    "description": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+    "baseStats": {
+      "hp": 108,
+      "attack": 170,
+      "defense": 115,
+      "spAtk": 120,
+      "spDef": 95,
+      "speed": 92
+    },
+    "imageUrl": "assets/pokemon-imgs/full/445_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/445_f2.png"
+  },
+  {
+    "entryNumber": "448",
+    "name": "Mega Lucario",
+    "description": "By catching the aura emanating from others, it can read their thoughts and movements.",
+    "abilities": ["Adaptability"],
+    "baseStats": {
+      "hp": 70,
+      "attack": 145,
+      "defense": 88,
+      "spAtk": 140,
+      "spDef": 70,
+      "speed": 112
+    },
+    "imageUrl": "assets/pokemon-imgs/full/448_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/448_f2.png"
+  },
+  {
+    "entryNumber": "460",
+    "name": "Mega Abomasnow",
+    "description": "It blankets wide areas in snow by whipping up blizzards. It is also known as “The Ice Monster.”",
+    "traits": {
+      "height": "8' 10\"",
+      "weight": 407.9
+    },
+    "baseStats": {
+      "hp": 90,
+      "attack": 132,
+      "defense": 105,
+      "spAtk": 132,
+      "spDef": 105,
+      "speed": 30
+    },
+    "imageUrl": "assets/pokemon-imgs/full/460_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/460_f2.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Heat Rotom",
+    "description": "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.",
+    "types": ["Electric", "Fire"],
+    "weaknesses": ["Water", "Ground", "Rock"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "assets/pokemon-imgs/full/479_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/479_f2.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Wash Rotom",
+    "description": "This form of Rotom enjoys coming up with water- based pranks. Be careful with it if you don't want your room flooded.",
+    "types": ["Electric", "Water"],
+    "weaknesses": ["Grass", "Ground"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "assets/pokemon-imgs/full/479_f3.png",
+    "iconUrl": "assets/pokemon-imgs/detail/479_f3.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Frost Rotom",
+    "description": "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.",
+    "types": ["Electric", "Ice"],
+    "weaknesses": ["Fire", "Ground", "Fighting", "Rock"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "assets/pokemon-imgs/full/479_f4.png",
+    "iconUrl": "assets/pokemon-imgs/detail/479_f4.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Fan Rotom",
+    "description": "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.",
+    "types": ["Electric", "Flying"],
+    "weaknesses": ["Ice", "Rock"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "assets/pokemon-imgs/full/479_f5.png",
+    "iconUrl": "assets/pokemon-imgs/detail/479_f5.png"
+  },
+  {
+    "entryNumber": "479",
+    "name": "Mow Rotom",
+    "description": "This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.",
+    "types": ["Electric", "Grass"],
+    "weaknesses": ["Fire", "Ice", "Poison", "Bug"],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAtk": 105,
+      "spDef": 107,
+      "speed": 86
+    },
+    "imageUrl": "assets/pokemon-imgs/full/479_f6.png",
+    "iconUrl": "assets/pokemon-imgs/detail/479_f6.png"
+  },
+  {
+    "entryNumber": "487",
+    "name": "Origine Forme",
+    "description": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+    "traits": {
+      "height": "22' 08\"",
+      "weight": 1433
+    },
+    "abilities": ["Levitate"],
+    "baseStats": {
+      "hp": 150,
+      "attack": 120,
+      "defense": 100,
+      "spAtk": 120,
+      "spDef": 100,
+      "speed": 90
+    },
+    "imageUrl": "assets/pokemon-imgs/full/487_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/487_f2.png"
+  },
+  {
+    "entryNumber": "492",
+    "name": "Sky Forme",
+    "description": "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+    "traits": {
+      "height": "1' 04\"",
+      "weight": 11.5
+    },
+    "abilities": ["Serene Grace"],
+    "types": ["Grass", "Flying"],
+    "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Rock"],
+    "baseStats": {
+      "hp": 100,
+      "attack": 103,
+      "defense": 75,
+      "spAtk": 120,
+      "spDef": 75,
+      "speed": 127
+    },
+    "imageUrl": "assets/pokemon-imgs/full/492_f2.png",
+    "iconUrl": "assets/pokemon-imgs/detail/492_f2.png"
+  }
+]
