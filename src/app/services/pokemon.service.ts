@@ -9,7 +9,7 @@ import { CustomFormControls } from '../pokemon/form-control';
 
 @Injectable({providedIn: 'root'})
 export class PokemonService {
-  private url = '../api/pokedex.json';
+  private url = 'api/pokedex.json';
 
   get types(): Observable<string[]> {
     return of([
@@ -72,19 +72,19 @@ export class PokemonService {
   }
 
   getAlternateForms(): Observable<Pokemon[]> {
-    return this.http.get<Pokemon[]>('../api/alternate-forms.json').pipe(
+    return this.http.get<Pokemon[]>('api/alternate-forms.json').pipe(
       catchError(this.errorHandler)
     );
   }
 
   getAbilities(): Observable<string[]> {
-    return this.http.get<string[]>('../api/abilities.json').pipe(
+    return this.http.get<string[]>('api/abilities.json').pipe(
       catchError(this.errorHandler)
     );
   }
 
   get formFields(): Observable<CustomFormControls[]> {
-    return this.http.get<CustomFormControls[]>('../api/form-fields.json').pipe(
+    return this.http.get<CustomFormControls[]>('api/form-fields.json').pipe(
       catchError(this.errorHandler)
     );
   }
