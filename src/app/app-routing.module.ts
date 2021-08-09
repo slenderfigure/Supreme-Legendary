@@ -13,7 +13,7 @@ const route: Route[] = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(route) ],
+  imports: [ RouterModule.forRoot(route, { relativeLinkResolution: 'legacy' }) ],
   exports: [ RouterModule ],
 })
 export class AppRoutingModule {}
